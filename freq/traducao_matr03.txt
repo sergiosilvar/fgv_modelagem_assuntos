@@ -2189,7 +2189,6 @@ zangar;3
 único;3
 únicos;3
 !...;2
-?...;2
 abafada;2
 abas;2
 abatido;2

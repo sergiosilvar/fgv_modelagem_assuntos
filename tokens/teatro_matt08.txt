@@ -528,10 +528,8 @@ caminha
 volta
 recitais
 versos
-?...
 são
 vossos
-?...
 não
 negueis
 gosto
@@ -551,7 +549,6 @@ carneiro
 caminha
 sarcástico
 camões
-?...
 galantes
 nem
 virgílio
@@ -1106,7 +1103,6 @@ sua
 alteza
 falou
 disso
-?...
 contar
 eis
 tempo
@@ -2468,7 +2464,6 @@ cena
 por
 tratamos
 versos
-?...
 fora
 melhor
 ...
@@ -2507,7 +2502,6 @@ amor
 ...
 mas
 deveras
-?...
 que
 outra
 podia
@@ -2594,7 +2588,6 @@ terra
 namorados
 que
 dizeis
-?...
 catarina
 baixando
 olhos
@@ -3152,7 +3145,6 @@ nada
 querendo
 retirar
 permitis
-?...
 francisca
 jesus
 que

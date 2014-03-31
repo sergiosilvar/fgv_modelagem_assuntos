@@ -800,7 +800,6 @@ virumque;8
 visse;8
 vulgar;8
 xavier;8
-?...;7
 acabou;7
 aconteceu;7
 acrescentou;7

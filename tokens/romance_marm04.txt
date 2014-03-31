@@ -16911,7 +16911,6 @@ fazendo
 voltar
 você
 chorou
-?...
 chorou
 sim
 olhos
@@ -17725,11 +17724,9 @@ não
 rival
 nenhuma
 idéia
-?...
 nenhuma
 idéia
 vaga
-?...
 preciso
 saber
 ...
@@ -19036,7 +19033,6 @@ deveras
 algum
 pretendente
 namoro
-?...
 que
 saiba
 nada

@@ -342,7 +342,6 @@ virtude;3
 viver;3
 vivia;3
 vocação;3
-?...;2
 abaixo;2
 abria;2
 acabava;2

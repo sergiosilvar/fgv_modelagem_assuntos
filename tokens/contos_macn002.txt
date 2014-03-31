@@ -1647,7 +1647,6 @@ comprida
 isabel
 ...
 isabel
-?...
 interrompeu
 camilo
 ora
@@ -2089,7 +2088,6 @@ querida
 isabel
 ...
 que
-?...
 deus
 acudam
 últimas
@@ -7161,7 +7159,6 @@ ontem
 tarde
 vieste
 dizer
-?...
 perguntou
 velho
 porque
@@ -11602,7 +11599,6 @@ agora
 convite
 creio
 dispensa
-?...
 sem
 dúvida
 apressou
@@ -12253,7 +12249,6 @@ então
 cinco
 ...
 cinco
-?...
 sim
 cinco
 concordou
@@ -15365,7 +15360,6 @@ ambicionar
 ...
 não
 pode
-?...
 não
 meu
 fim
@@ -19158,7 +19152,6 @@ reflexão
 nada
 pois
 ânimo
-?...
 tive
 amigo
 ânimo
@@ -19764,7 +19757,6 @@ senhor
 conversando
 ...
 conversando
-?...
 repetiu
 meireles
 acrescentou
@@ -19794,7 +19786,6 @@ não
 convidaste
 não
 convidei
-?...
 sim
 fazes
 anos

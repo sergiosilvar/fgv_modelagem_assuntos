@@ -4437,7 +4437,6 @@ viste
 hoje
 versos
 folha
-?...
 poeta
 acrescentava
 sou
@@ -19563,7 +19562,6 @@ língua
 vai
 pregar
 nela
-?...
 para
 fazer
 rir

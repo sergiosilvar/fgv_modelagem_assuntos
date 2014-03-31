@@ -758,7 +758,6 @@ senhor
 onde
 pus
 charuto
-?...
 tome
 alfredo
 ofereceu
@@ -1460,7 +1459,6 @@ sei
 descrevo
 mas
 rica
-?...
 não
 sei
 ...
@@ -1544,7 +1542,6 @@ sentenciosamente
 tibúrcio
 então
 parece
-?...
 parece
 deves
 continuar
@@ -3321,7 +3318,6 @@ outra
 casa
 mas
 então
-?...
 esta
 acabou
 pois
@@ -3765,7 +3761,6 @@ respondeu
 aborrecesse
 que
 tal
-?...
 epaminondas
 recolheu
 eloqüente
@@ -4266,7 +4261,6 @@ literalmente
 embasbacado
 mas
 veio
-?...
 quis
 causar
 surpresa
@@ -4284,7 +4278,6 @@ sabia
 tudo
 quem
 disse
-?...
 ângela
 titubeou
 foi

@@ -103,7 +103,6 @@ podia;8
 talvez;8
 tempo;8
 vez;8
-?...;7
 amo;7
 berteux;7
 bom;7

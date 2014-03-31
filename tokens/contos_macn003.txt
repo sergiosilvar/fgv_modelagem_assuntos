@@ -4136,7 +4136,6 @@ evarista
 encontrado
 algum
 autor
-?...
 não
 senhor
 achou
@@ -27201,7 +27200,6 @@ zeus
 morto
 dionisos
 afrodita
-?...
 tudo
 morto
 homem

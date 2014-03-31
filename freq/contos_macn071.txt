@@ -260,7 +260,6 @@ virtudes;3
 visto;3
 várias;3
 último;3
-?...;2
 acabava;2
 aceitável;2
 acordava;2

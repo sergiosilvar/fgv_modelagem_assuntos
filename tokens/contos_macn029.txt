@@ -756,7 +756,6 @@ imagine
 ...
 mas
 supôs
-?...
 por
 nada
 ...
@@ -801,7 +800,6 @@ amor
 então
 confessa
 quê
-?...
 disse
 hortênsia
 vivamente

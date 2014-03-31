@@ -3434,7 +3434,6 @@ amasse
 respondeu
 eduardo
 quê
-?...
 não
 amo
 não
@@ -6857,7 +6856,6 @@ vai
 então
 tudo
 bem
-?...
 tudo
 exato
 ...

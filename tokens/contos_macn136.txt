@@ -363,7 +363,6 @@ quem
 volta
 tão
 longe
-?...
 faço
 derradeira
 confissão
@@ -2236,7 +2235,6 @@ isoladamente
 lado
 próprio
 sol
-?...
 está
 apagada
 mim
@@ -2621,7 +2619,6 @@ ver
 tentei
 prova
 maldita
-?...
 antes
 morrer
 experimentei

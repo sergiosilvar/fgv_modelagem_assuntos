@@ -135,7 +135,6 @@ três;5
 velho;5
 vem;5
 voz;5
-?...;4
 abismo;4
 acima;4
 ama;4

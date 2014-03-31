@@ -1736,7 +1736,6 @@ vizinhos;2
 550;1
 800;1
 833;1
-?...;1
 abafadas;1
 abafam;1
 abaixamento;1

@@ -465,7 +465,6 @@ vontade;2
 ..';1
 ...';1
 1994;1
-?...;1
 ?...';1
 abandonou;1
 abatimento;1

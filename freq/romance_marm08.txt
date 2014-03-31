@@ -667,7 +667,6 @@ velhos;10
 viu;10
 vizinhança;10
 viúva;10
-?...;9
 antigo;9
 após;9
 ato;9

@@ -519,7 +519,6 @@ vizinho;2
 ;1
 !...;1
 ://;1
-?...;1
 abaixo;1
 aberta;1
 abertamente;1

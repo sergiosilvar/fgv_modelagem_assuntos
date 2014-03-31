@@ -669,7 +669,6 @@ velho;6
 volta;6
 voltar;6
 véspera;6
-?...;5
 abatida;5
 abrir;5
 acabar;5

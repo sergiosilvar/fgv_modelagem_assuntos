@@ -2301,7 +2301,6 @@ vício;3
 1869;2
 1875;2
 1876;2
-?...;2
 abaixou;2
 abanava;2
 abandonada;2

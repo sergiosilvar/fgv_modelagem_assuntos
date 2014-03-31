@@ -810,7 +810,6 @@ xícara;2
 1825;1
 1835;1
 ://;1
-?...;1
 abalado;1
 abalo;1
 abandonado;1

@@ -215,7 +215,6 @@ vez;3
 virgínia;3
 voltou;3
 1864;2
-?...;2
 abismo;2
 abraçar;2
 acerca;2

@@ -8271,7 +8271,6 @@ zapatos;3
 500;2
 600;2
 954;2
-?...;2
 abalada;2
 abaladas;2
 abalado;2

@@ -1818,7 +1818,6 @@ estudos
 ...
 quer
 charuto
-?...
 não
 fumo
 ...
@@ -1826,7 +1825,6 @@ vício
 corrija
 charutos
 senhores
-?...
 hoje
 fuma
 toda

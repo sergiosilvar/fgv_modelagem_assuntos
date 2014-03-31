@@ -1802,7 +1802,6 @@ contento
 cidade
 mas
 então
-?...
 vou
 outra
 matéria
@@ -7604,7 +7603,6 @@ fidélis
 vou
 baile
 carvalhinho
-?...
 depois
 amanhã
 saída
@@ -19889,7 +19887,6 @@ mulheres
 como
 quer
 saiba
-?...
 tinha
 dezenove
 anos

@@ -1000,7 +1000,6 @@ zombe;2
 150;1
 1860;1
 ://;1
-?...;1
 abalar;1
 abalou;1
 abanar;1

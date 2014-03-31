@@ -1871,7 +1871,6 @@ casar
 podias
 pôr
 dúvida
-?...
 não
 pergunta
 não
@@ -3495,7 +3494,6 @@ vida
 murmurou
 magalhães
 disse
-?...
 carta
 respondeu
 oliveira

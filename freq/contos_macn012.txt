@@ -276,7 +276,6 @@ vontade;3
 vácuo;3
 ...,;2
 1864;2
-?...;2
 acabou;2
 acompanhou;2
 acordou;2

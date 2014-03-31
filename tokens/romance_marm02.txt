@@ -3651,7 +3651,6 @@ bonito
 que
 diriam
 vissem
-?...
 diria
 nada
 porque
@@ -5850,7 +5849,6 @@ vês
 diferentes
 queres
 então
-?...
 serviço
 amigo
 bem

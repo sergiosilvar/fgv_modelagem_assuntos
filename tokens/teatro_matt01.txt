@@ -2066,7 +2066,6 @@ desde
 criança
 emília
 criança
-?...
 tito
 ainda
 hoje
@@ -2557,9 +2556,7 @@ tito
 despertando
 espanto
 dorme
-?...
 quem
-?...
 cansaço
 ...
 levanta
@@ -2585,7 +2582,6 @@ sim
 alto
 mas
 dirá
-?...
 dirige
 fundo
 entra
@@ -3074,7 +3070,6 @@ coronel
 mofando
 sonhou
 comigo
-?...
 parte
 coitado
 tenho
@@ -3174,7 +3169,6 @@ lições
 ...
 quisesse
 dar
-?...
 tito
 está
 sonhando
@@ -3290,7 +3284,6 @@ afrontosas
 ...
 qual
 castigo
-?...
 pausa
 paro
 aqui
@@ -3466,7 +3459,6 @@ seabra
 então
 ainda
 esperar
-?...
 emília
 simples
 quarto
@@ -3679,7 +3671,6 @@ qualidades
 talvez
 preferisses
 viúva
-?...
 tito
 sim
 natural
@@ -3782,7 +3773,6 @@ saio
 seabra
 pois
 palavra
-?...
 tito
 palavra
 idéia
@@ -3967,7 +3957,6 @@ mofa
 tito
 mofa
 senhora
-?...
 emília
 ontem
 tomei
@@ -3994,7 +3983,6 @@ digo
 culpado
 ernesto
 emília
-?...
 tito
 verdade
 deu
@@ -4445,7 +4433,6 @@ prorrogando
 não
 amo
 não
-?...
 tito
 exa
 emília
@@ -4588,7 +4575,6 @@ pior
 ...
 margarida
 pior
-?...
 emília
 escuta
 quase
@@ -4700,7 +4686,6 @@ pois
 possível
 quem
 pensara
-?...
 emília
 mim
 própria

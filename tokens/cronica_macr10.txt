@@ -4469,7 +4469,6 @@ mania
 mas
 então
 perdido
-?...
 não
 ainda
 pode
@@ -13201,7 +13200,6 @@ ainda
 pior
 elemento
 quê
-?...
 servil
 não
 sei

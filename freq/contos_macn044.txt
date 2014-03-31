@@ -393,7 +393,6 @@ zelo;2
 !...;1
 ***,;1
 ://;1
-?...;1
 abalroava;1
 abanou;1
 abriu;1

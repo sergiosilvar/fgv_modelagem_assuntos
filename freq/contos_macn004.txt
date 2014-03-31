@@ -1562,7 +1562,6 @@ vulgar;4
 xale;4
 ônibus;4
 1884;3
-?...;3
 abalou;3
 abanou;3
 abatido;3

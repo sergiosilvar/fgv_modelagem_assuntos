@@ -10731,7 +10731,6 @@ ser
 mulher
 feliz
 sabe
-?...
 contudo
 sinto
 vou
@@ -11822,7 +11821,6 @@ consciência
 ganha
 césar
 levantando
-?...
 freitas
 tem
 alguma
@@ -15532,7 +15530,6 @@ vasconcelos
 mas
 papai
 infeliz
-?...
 isso
 impossível
 filha
@@ -16177,7 +16174,6 @@ pequena
 deve
 casar
 amasse
-?...
 que
 importa
 esperaria
@@ -17024,7 +17020,6 @@ amor
 acima
 todas
 circunstâncias
-?...
 todas
 salvo
 entenderem
@@ -20730,7 +20725,6 @@ ordeno
 ordena
 obedecer
 puder
-?...
 acredita
 possa
 viver
@@ -24838,7 +24832,6 @@ olha
 olhos
 tão
 singulares
-?...
 não
 sei
 singulares
@@ -25368,7 +25361,6 @@ sente
 alguma
 coisa
 mim
-?...
 falaria
 ora
 eis
@@ -25882,7 +25874,6 @@ nada
 ...
 pois
 maior
-?...
 segunda
 desgraça
 forma
@@ -26343,7 +26334,6 @@ lutar
 mestre
 simples
 aprendiz
-?...
 mestre
 quê
 dos
@@ -26674,7 +26664,6 @@ qualidades
 talvez
 preferisses
 viúva
-?...
 sim
 natural
 embale
@@ -29287,7 +29276,6 @@ olha
 mim
 quem
 pensara
-?...
 mim
 própria
 parece
@@ -29295,7 +29283,6 @@ impossível
 porém
 verdade
 ...
-?...
 ele
 disse
 quatro

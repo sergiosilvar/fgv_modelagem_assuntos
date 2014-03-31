@@ -195,7 +195,6 @@ verdade;3
 vão;3
 zéfiros;3
 1860;2
-?...;2
 abrindo;2
 aceitar;2
 acho;2

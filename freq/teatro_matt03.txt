@@ -672,7 +672,6 @@ voltei;2
 útil;2
 ;1
 2003;1
-?...;1
 abelardo;1
 aberta;1
 abertas;1

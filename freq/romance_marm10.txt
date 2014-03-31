@@ -1786,7 +1786,6 @@ zelo;3
 ...;2
 1889;2
 1908;2
-?...;2
 aberta;2
 abertos;2
 abismo;2

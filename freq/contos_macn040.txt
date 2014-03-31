@@ -488,7 +488,6 @@ volta;4
 voltar;4
 ânimo;4
 única;4
-?...;3
 aborrecido;3
 acabava;3
 acabou;3

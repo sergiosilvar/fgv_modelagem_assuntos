@@ -41,7 +41,6 @@ homem;17
 melhor;17
 mão;17
 nada;17
-?...;16
 alves;16
 caminho;16
 como;16

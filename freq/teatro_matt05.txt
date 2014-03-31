@@ -428,7 +428,6 @@ zangado;2
 ...);1
 1862;1
 2003;1
-?...;1
 abismo;1
 aborrecido;1
 abracem;1

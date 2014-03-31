@@ -241,7 +241,6 @@ vida;3
 vão;3
 último;3
 1867;2
-?...;2
 abria;2
 aceito;2
 achava;2

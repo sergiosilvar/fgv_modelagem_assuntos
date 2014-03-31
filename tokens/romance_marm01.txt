@@ -4400,7 +4400,6 @@ casamento
 incubado
 ...
 casar
-?...
 disse
 félix
 rindo
@@ -5583,7 +5582,6 @@ quer
 corrija
 ordem
 dei
-?...
 não
 peço
 tanto
@@ -5591,7 +5589,6 @@ direito
 todavia
 ...
 todavia
-?...
 houve
 curto
 silêncio
@@ -15831,7 +15828,6 @@ vezes
 dissipado
 realizar
 enfim
-?...
 quase
 ano
 pus
@@ -19001,7 +18997,6 @@ raízes
 cresceu
 crês
 então
-?...
 aventurou
 médico
 não

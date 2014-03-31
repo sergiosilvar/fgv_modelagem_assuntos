@@ -1533,7 +1533,6 @@ xela;3
 1849;2
 1868;2
 1886;2
-?...;2
 aba;2
 abalar;2
 abalizados;2

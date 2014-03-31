@@ -901,7 +901,6 @@ visse;9
 vitória;9
 voltava;9
 vozes;9
-?...;8
 abrir;8
 admiração;8
 advogado;8

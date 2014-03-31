@@ -384,7 +384,6 @@ vivia;3
 voz;3
 ânimo;3
 1874;2
-?...;2
 abanou;2
 acaso;2
 acho;2

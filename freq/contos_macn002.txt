@@ -432,7 +432,6 @@ sido;10
 todavia;10
 umas;10
 vão;10
-?...;9
 alguém;9
 amava;9
 amizade;9

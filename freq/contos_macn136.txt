@@ -126,7 +126,6 @@ vossa;4
 última;4
 último;4
 ..,;3
-?...;3
 abriu;3
 ajuntou;3
 alegria;3

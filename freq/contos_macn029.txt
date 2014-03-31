@@ -248,7 +248,6 @@ volta;3
 vontade;3
 última;3
 1868;2
-?...;2
 abandone;2
 acabado;2
 achavam;2

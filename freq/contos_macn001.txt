@@ -425,7 +425,6 @@ sobrinho;14
 voltar;14
 última;14
 último;14
-?...;13
 abriu;13
 acima;13
 amado;13

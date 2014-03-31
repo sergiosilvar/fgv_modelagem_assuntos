@@ -55,7 +55,6 @@ preciso;8
 quer;8
 vem;8
 vinte;8
-?...;7
 amanhã;7
 coração;7
 estou;7

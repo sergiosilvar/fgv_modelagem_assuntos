@@ -79,7 +79,6 @@ onde
 sra
 sofia
 melo
-?...
 não
 vejo
 ninguém
@@ -1920,7 +1919,6 @@ satisfeito
 durval
 deveras
 chama
-?...
 rosinha
 chama
 ...

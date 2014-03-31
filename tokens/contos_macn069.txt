@@ -143,7 +143,6 @@ passeante
 fazes
 aqui
 hora
-?...
 ...
 quê
 ando
@@ -2280,7 +2279,6 @@ mais
 mas
 ...
 então
-?...
 interlocutor
 insistia
 aqui

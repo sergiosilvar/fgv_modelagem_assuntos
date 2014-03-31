@@ -2870,7 +2870,6 @@ que
 clarinha
 então
 amor
-?...
 aquele
 amor
 morreu
@@ -3861,7 +3860,6 @@ sim
 impossível
 por
 quê
-?...
 porque
 ...
 morreu
@@ -4725,7 +4723,6 @@ consigo
 confiara
 segredo
 padre
-?...
 impossível
 !...
 contudo

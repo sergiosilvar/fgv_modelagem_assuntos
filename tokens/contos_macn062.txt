@@ -320,7 +320,6 @@ dia
 ...
 mas
 onde
-?...
 ficará
 outra
 vez

@@ -1000,7 +1000,6 @@ pensei
 casamento
 ...
 ...
-?...
 pensaste
 dia
 menos
@@ -1958,7 +1957,6 @@ carochinha
 não
 disse
 amava
-?...
 beijo
 longo
 longo
@@ -3188,7 +3186,6 @@ filha
 ...
 tens
 coragem
-?...
 tenho
 ...
 ...
@@ -4589,7 +4586,6 @@ amigo
 tão
 longe
 morrer
-?...
 morrer
 não
 fale
@@ -5175,7 +5171,6 @@ boa
 ...
 mais
 alegre
-?...
 vai
 vivendo
 ...
@@ -5218,7 +5213,6 @@ como
 deu
 dois
 meses
-?...
 sabe
 ausência
 sentida
@@ -5265,7 +5259,6 @@ filho
 filho
 ...
 pois
-?...
 vicente
 entrou
 sala

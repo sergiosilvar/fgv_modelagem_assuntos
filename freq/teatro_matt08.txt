@@ -66,7 +66,6 @@ ides;9
 mim;9
 vede;9
 áfrica;9
-?...;8
 algum;8
 amigo;8
 direita;8

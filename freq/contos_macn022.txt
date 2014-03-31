@@ -265,7 +265,6 @@ viram;3
 voz;3
 vão;3
 1866;2
-?...;2
 abrir;2
 aceita;2
 achou;2

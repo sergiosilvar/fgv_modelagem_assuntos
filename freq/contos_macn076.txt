@@ -177,7 +177,6 @@ vamos;4
 vestido;4
 vou;4
 última;4
-?...;3
 acudiu;3
 agitação;3
 alguns;3

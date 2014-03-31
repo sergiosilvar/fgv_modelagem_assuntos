@@ -861,7 +861,6 @@ mim
 pai
 ...
 pai
-?...
 interrompeu
 joão
 barbosa
@@ -1852,7 +1851,6 @@ dar
 caso
 ...
 que
-?...
 que
 tio
 doente

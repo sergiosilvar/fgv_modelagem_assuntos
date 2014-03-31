@@ -2240,7 +2240,6 @@ vício;3
 ímpetos;3
 íntima;3
 óculos;3
-?...;2
 abalado;2
 abanando;2
 abanou;2

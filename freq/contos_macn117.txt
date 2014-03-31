@@ -327,7 +327,6 @@ vizinhos;2
 vou;2
 ;1
 1994;1
-?...;1
 abalo;1
 abastadas;1
 abatido;1

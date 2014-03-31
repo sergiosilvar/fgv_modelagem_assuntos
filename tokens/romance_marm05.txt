@@ -5027,7 +5027,6 @@ sabe
 morrerei
 ...
 digo
-?...
 morro
 todos
 dias
@@ -9855,7 +9854,6 @@ mesma
 senhora
 alguns
 anos
-?...
 mesma
 justamente
 senhora
@@ -10128,7 +10126,6 @@ contanto
 ...
 contanto
 quê
-?...
 interrompi
 imitando
 voz
@@ -12455,7 +12452,6 @@ humilde
 ...
 imagine
 quê
-?...
 queria
 oferecê
 los
@@ -22792,7 +22788,6 @@ oito
 contos
 disse
 ahn
-?...
 gemeu
 enfermo
 sujeito
@@ -32860,7 +32855,6 @@ distraia
 justos
 céus
 parece
-?...
 homem
 tamanho
 espírito
@@ -33362,7 +33356,6 @@ morrer
 hospital
 ordem
 adivinhem
-?...
 linda
 marcela
 morrer

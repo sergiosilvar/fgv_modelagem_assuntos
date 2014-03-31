@@ -557,7 +557,6 @@ voz;2
 ...;1
 1871;1
 ://;1
-?...;1
 abalo;1
 abanando;1
 abanou;1

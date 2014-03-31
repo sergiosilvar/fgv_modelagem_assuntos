@@ -336,7 +336,6 @@ tocar;4
 vinte;4
 vira;4
 voltou;4
-?...;3
 abanou;3
 abriu;3
 acabou;3

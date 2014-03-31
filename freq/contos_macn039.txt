@@ -188,7 +188,6 @@ verdadeiro;4
 viu;4
 1860;3
 1872;3
-?...;3
 abril;3
 achava;3
 afirmativo;3

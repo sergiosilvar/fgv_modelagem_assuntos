@@ -25,7 +25,6 @@ vai;19
 mim;17
 ser;17
 bem;16
-?...;15
 ainda;15
 tempo;15
 urso;15

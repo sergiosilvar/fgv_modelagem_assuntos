@@ -123,7 +123,6 @@ sim;5
 tomás;5
 viu;5
 !...;4
-?...;4
 acabou;4
 achou;4
 alma;4

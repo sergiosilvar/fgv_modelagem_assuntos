@@ -2416,7 +2416,6 @@ sei
 vales
 mas
 razão
-?...
 vais
 saber
 tudo
@@ -2473,7 +2472,6 @@ amor
 sugeriam
 esse
 homem
-?...
 esse
 homem
 amigo

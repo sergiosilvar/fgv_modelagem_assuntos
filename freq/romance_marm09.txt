@@ -663,7 +663,6 @@ sorriu;12
 trabalho;12
 trinta;12
 umas;12
-?...;11
 abaixo;11
 acaba;11
 anda;11

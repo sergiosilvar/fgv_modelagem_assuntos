@@ -105,7 +105,6 @@ possível;8
 sair;8
 sim;8
 vezes;8
-?...;7
 apareceu;7
 coisas;7
 criado;7

@@ -771,7 +771,6 @@ tornar
 morte
 aflitiva
 certeza
-?...
 atalhou
 rubião
 morrer
@@ -2488,7 +2487,6 @@ tem
 alguma
 comunicação
 reservada
-?...
 justamente
 traz
 comunicação
@@ -9052,7 +9050,6 @@ falar
 amores
 cautelas
 desbragadamente
-?...
 achava
 razão
 bem
@@ -13224,7 +13221,6 @@ encontramos
 trem
 estrada
 ferro
-?...
 vínhamos
 vassouras
 projeto
@@ -26591,7 +26587,6 @@ casar
 mas
 então
 quê
-?...
 maria
 benedita
 maria
@@ -28626,7 +28621,6 @@ querido
 prima
 ...
 quê
-?...
 carlos
 maria
 concluiu
@@ -28842,7 +28836,6 @@ estacou
 passo
 aquela
 moça
-?...
 não
 possível
 tenho
@@ -33685,7 +33678,6 @@ cabo
 alguns
 segundos
 que
-?...
 rubião
 mande
 parar

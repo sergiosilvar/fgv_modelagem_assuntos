@@ -3205,7 +3205,6 @@ zacharias;3
 1862;2
 200;2
 484;2
-?...;2
 abaixo;2
 abalar;2
 abandonar;2

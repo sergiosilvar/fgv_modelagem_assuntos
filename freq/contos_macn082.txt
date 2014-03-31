@@ -241,7 +241,6 @@ xale;2
 único;2
 ;1
 1994;1
-?...;1
 abalavam;1
 abandono;1
 abismo;1

@@ -1222,7 +1222,6 @@ viesse;5
 violenta;5
 violência;5
 vira;5
-?...;4
 abertos;4
 aborrecido;4
 absolutamente;4

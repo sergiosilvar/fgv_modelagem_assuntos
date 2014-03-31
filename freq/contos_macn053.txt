@@ -83,7 +83,6 @@ tarde;8
 tia;8
 viver;8
 viúva;8
-?...;7
 além;7
 bela;7
 bom;7

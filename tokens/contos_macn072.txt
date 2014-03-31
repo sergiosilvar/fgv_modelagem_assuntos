@@ -1490,7 +1490,6 @@ vez
 copiar
 autos
 pintura
-?...
 silvestre
 ousava
 levantar
@@ -3997,7 +3996,6 @@ consentir
 nunca
 mas
 loucura
-?...
 devia
 impedido
 desde

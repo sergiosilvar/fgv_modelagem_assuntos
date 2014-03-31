@@ -70,7 +70,6 @@ sei;6
 teixeira;6
 verdade;6
 álbum;6
-?...;5
 bem;5
 cena;5
 condição;5

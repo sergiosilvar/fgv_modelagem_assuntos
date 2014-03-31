@@ -1228,7 +1228,6 @@ apre
 mano
 isso
 moças
-?...
 senhora
 irmã
 anda
@@ -1263,7 +1262,6 @@ pois
 enganou
 adivinhação
 verdade
-?...
 verdade
 coisa
 natural

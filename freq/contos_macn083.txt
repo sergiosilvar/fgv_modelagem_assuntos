@@ -535,7 +535,6 @@ véspera;2
 1840;1
 1880;1
 1994;1
-?...;1
 abaixou;1
 abanava;1
 abastado;1

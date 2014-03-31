@@ -896,7 +896,6 @@ véspera;2
 zelo;2
 ;1
 ://;1
-?...;1
 abaixo;1
 abatida;1
 abençoado;1

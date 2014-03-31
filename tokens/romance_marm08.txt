@@ -575,7 +575,6 @@ outra
 vez
 inquietas
 sombras
-?...
 fiquei
 tão
 alegre
@@ -2246,7 +2245,6 @@ caro
 marcolini
 ...
 quê
-?...
 beber
 gole
 licor
@@ -8957,7 +8955,6 @@ ser
 padre
 poderá
 alcançar
-?...
 ele
 atendido
 porém
@@ -11869,7 +11866,6 @@ tanto
 gosto
 como
 agora
-?...
 não
 creio
 bentinho
@@ -19533,7 +19529,6 @@ alguma
 coisa
 mano
 cosme
-?...
 mandem
 ver
 ...'
@@ -20790,7 +20785,6 @@ ficar
 atento
 então
 parece
-?...
 sim
 vezes
 ouve
@@ -20922,7 +20916,6 @@ pessoa
 reticência
 uma
 pessoa
-?...
 não
 preciso
 entendesse
@@ -25973,7 +25966,6 @@ ser
 quem
 sabe
 tudo
-?...
 aquela
 intimidade
 vizinhos
@@ -29630,7 +29622,6 @@ comadre
 ...
 então
 mamãe
-?...
 perfeitamente
 mas
 visita

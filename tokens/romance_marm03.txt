@@ -22300,7 +22300,6 @@ tido
 excessivo
 escrúpulo
 talvez
-?...
 escrúpulo
 desarrazoado
 antes
@@ -23042,7 +23041,6 @@ que
 fatalidade
 mas
 ...
-?...
 explica
 estácio
 enxugou

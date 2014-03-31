@@ -448,7 +448,6 @@ feliz
 ...
 ...
 dumont
-?...
 mathilde
 ouvisse
 somente
@@ -567,7 +566,6 @@ mathilde
 mim
 pois
 acaso
-?...
 dumont
 tanto
 severa
@@ -801,7 +799,6 @@ nunca
 alvarez
 senhora
 dumont
-?...
 está
 boa
 saúde
@@ -819,7 +816,6 @@ caixa
 ...
 aposto
 boneca
-?...
 alvarez
 não
 aposto
@@ -1221,7 +1217,6 @@ sra
 larcey
 duas
 horas
-?...
 como
 tratam
 hoje
@@ -2237,7 +2232,6 @@ comparam
 que
 vida
 senhor
-?...
 quantas
 vezes
 pensado
@@ -4937,7 +4931,6 @@ matasse
 onde
 estaria
 reparação
-?...
 senhor
 matasse
 onde

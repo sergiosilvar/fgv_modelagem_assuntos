@@ -1343,10 +1343,8 @@ inocêncio
 cúmulo
 satisfação
 boca
-?...
 com
 olhar
-?...
 queira
 perdoar
 senhora
@@ -1553,7 +1551,6 @@ sei
 pausa
 cisma
 valentim
-?...
 nada
 carlota
 interessante
@@ -1752,7 +1749,6 @@ valentim
 onde
 encontrarei
 roteiro
-?...
 carlota
 isso
 graça
@@ -1850,7 +1846,6 @@ tino
 fortuna
 carlota
 outro
-?...
 outro
 mas
 ...
@@ -2086,7 +2081,6 @@ doutor
 que
 vai
 matar
-?...
 correndo
 pares
 porta
@@ -2474,7 +2468,6 @@ valentim
 carlota
 propósito
 dizia
-?...
 doutor
 propósito
 queria
@@ -2848,7 +2841,6 @@ doutor
 pois
 ainda
 crês
-?...
 valentim
 ouve
 sinceramente
@@ -3496,9 +3488,7 @@ provavelmente
 traz
 notícias
 pernambuco
-?...
 cólera
-?...
 inocêncio
 costuma
 trazer
@@ -3819,7 +3809,6 @@ lugar
 combate
 carlota
 mataram
-?...
 valentim
 não
 preciso
@@ -3968,7 +3957,6 @@ venha
 pregar
 contra
 amor
-?...
 valentim
 amor
 exa
@@ -4928,7 +4916,6 @@ venâncio
 com
 moça
 encantadora
-?...
 pinheiro
 não
 razão
@@ -6365,7 +6352,6 @@ coração
 pinheiro
 mas
 lobos
-?...
 lulu
 lobos
 vestem
@@ -6446,7 +6432,6 @@ indiscreta
 pinheiro
 venâncio
 alves
-?...
 lulu
 tolo
 nada
@@ -7079,7 +7064,6 @@ aliança
 venâncio
 não
 entra
-?...
 ...
 creia
 ...

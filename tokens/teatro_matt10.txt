@@ -113,7 +113,6 @@ cecília
 titia
 ...
 leonor
-?...
 henrique
 helena
 foi
@@ -388,14 +387,12 @@ nada
 ...
 virá
 pedir
-?...
 mas
 pode
 ser
 ...
 tão
 moço
-?...
 barão
 aparece
 barão
@@ -1279,7 +1276,6 @@ aberto
 livro
 que
 livro
-?...
 talvez
 barão
 cecília
@@ -2039,7 +2035,6 @@ põe
 mão
 peito
 que
-?...
 resoluto
 não
 sicambro
@@ -2248,7 +2243,6 @@ dirige
 fundo
 onde
 vais
-?...
 cecília
 vou
 ...
@@ -3205,7 +3199,6 @@ helena
 parece
 ficou
 triste
-?...
 barão
 fiquei
 pois

@@ -1122,7 +1122,6 @@ sei
 conheces
 tua
 prima
-?...
 conheço
 acudiu
 colchoeiro
@@ -2446,7 +2445,6 @@ era
 verdade
 mas
 então
-?...
 explico
 rufina
 sabe
@@ -2526,7 +2524,6 @@ ridículo
 gostar
 senhora
 rufina
-?...
 sim
 creio
 nenhum

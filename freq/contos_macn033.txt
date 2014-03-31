@@ -451,7 +451,6 @@ vão;2
 ;1
 402;1
 ://;1
-?...;1
 abafar;1
 abanando;1
 abanou;1

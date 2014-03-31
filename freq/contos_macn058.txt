@@ -253,7 +253,6 @@ vir;3
 vira;3
 !...;2
 1875;2
-?...;2
 abas;2
 achei;2
 acontecimento;2

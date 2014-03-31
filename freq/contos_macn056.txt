@@ -257,7 +257,6 @@ vontade;3
 vão;3
 ânimo;3
 1875;2
-?...;2
 absolutamente;2
 acerca;2
 achava;2

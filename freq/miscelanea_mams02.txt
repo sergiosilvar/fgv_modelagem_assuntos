@@ -107,7 +107,6 @@ sexo;3
 sofre;3
 tanto;3
 1861;2
-?...;2
 acima;2
 admiram;2
 admiração;2

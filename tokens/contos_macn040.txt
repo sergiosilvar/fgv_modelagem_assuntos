@@ -2687,7 +2687,6 @@ agora
 ...
 algum
 apaixonado
-?...
 augusta
 levantou
 buscar
@@ -4601,7 +4600,6 @@ observou
 augusta
 então
 confessa
-?...
 confesso
 calor
 disse
@@ -8584,7 +8582,6 @@ indiferença
 orgulho
 mas
 então
-?...
 então
 tendo
 recusado

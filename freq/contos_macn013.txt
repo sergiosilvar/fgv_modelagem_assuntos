@@ -679,7 +679,6 @@ voltaram;3
 voltou;3
 última;3
 1864;2
-?...;2
 aberto;2
 abriu;2
 absurdo;2

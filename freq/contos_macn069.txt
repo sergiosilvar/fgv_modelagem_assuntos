@@ -233,7 +233,6 @@ vai;3
 voz;3
 !...;2
 1877;2
-?...;2
 abatido;2
 acaba;2
 aceitou;2
