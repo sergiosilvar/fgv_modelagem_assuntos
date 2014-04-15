@@ -11,6 +11,7 @@ porque
 porquê
 sempre
 nunca
+--
 !
 !!!
 !!)

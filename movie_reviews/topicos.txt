@@ -1,0 +1,24 @@
++------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+
+|   Topic0   |   Topic1   |   Topic2   |   Topic3   |   Topic4   |   Topic5   |   Topic6   |   Topic7   |   Topic8   |   Topic9   |
++------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+
+|    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |
+|    well    |    time    |    time    |   would    |    time    |    time    |   would    |    time    | characters | character  |
+|   films    |   people   | character  |    time    |   would    |   would    | characters |   would    |   would    |    time    |
+|    time    | characters |    well    | character  | characters | character  |    time    |    well    | character  |   really   |
+|   would    | character  |   would    |    life    |    well    |    best    | character  |   really   |    time    |   would    |
+| characters |    well    |  director  |    well    | character  |    well    |   films    | characters |    well    |    best    |
+|    life    |    life    | characters |   great    |   little   | characters |   scene    |    life    |   little   |   scene    |
+| character  |   scenes   |   really   |   films    |   films    |   films    |    life    |   scene    |   really   |    well    |
+|   people   |   little   |    life    | characters |    life    |   little   |   people   | character  |   scene    |   action   |
+|   scene    |    best    |   little   |   really   |   scenes   |   movies   |   little   |   little   |    year    | characters |
+|   movies   |    know    |   people   |    love    |   action   |  director  |   movies   |   people   | something  |   little   |
+|    best    |   really   |   films    |   world    |   people   |   great    |  another   |   films    |   people   |    know    |
+|   scenes   |   would    |   scenes   |   movies   |    work    |    year    |    well    |  director  |   seems    |   makes    |
+|   little   |   films    |   movies   |    know    |   seems    |    know    |   action   |    best    |   years    |  director  |
+|   action   |    made    |    made    |   little   |    love    |   script   |   really   |   still    |    know    |    love    |
+|  audience  |  another   |   think    |   people   |   really   |   scene    |   great    |  another   |    love    |    show    |
+|   great    |   scene    |    real    |    made    |  director  |    made    |   scenes   |   every    |   films    |   films    |
+|    love    |   action   |  another   |   seems    |   great    |   really   |    back    |   scenes   |    made    |    life    |
+|    know    |   movies   |   world    |   though   |    back    |    life    |    take    |  audience  |    back    |   still    |
+|   seems    |   great    | something  |    best    |   though   |   every    |    know    |    gets    |   movies   |   though   |
++------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+

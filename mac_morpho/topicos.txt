@@ -1,0 +1,24 @@
++------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+
+|   Topic0   |   Topic1   |   Topic2   |   Topic3   |   Topic4   |  Topic5  |   Topic6   |   Topic7   |   Topic8   |   Topic9   |
++------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+
+|   paulo    |  editoria  |  segundo   |  editoria  |   página   |  página  |   página   |   página   |  editoria  |   sobre    |
+|   página   |   sobre    |   paulo    |   paulo    |  segundo   |  sobre   |  editoria  |   sobre    |   página   |   paulo    |
+|   sobre    |  segundo   |   página   |  segundo   |   sobre    |  brasil  |   sobre    |  editoria  |  segundo   |  editoria  |
+|  editoria  |   página   |   sobre    |   página   |  editoria  | editoria |   brasil   |   paulo    |   sobre    |   página   |
+|  segundo   |    anos    |   brasil   |    anos    |    anos    | segundo  |   paulo    |    anos    |   brasil   |   brasil   |
+|    anos    |   paulo    |  editoria  |   brasil   |   brasil   |  paulo   |  segundo   |  segundo   |    anos    |  segundo   |
+|  governo   |   brasil   |    anos    |  governo   |  milhões   |   pode   |    anos    |   brasil   |   paulo    |    pode    |
+|   brasil   |    pode    |   contra   |   sobre    |  governo   |   anos   |    dois    |    pode    |    pode    |    anos    |
+|    pode    |    dois    | presidente |    dois    |    pode    |   dois   |  governo   |  governo   |   contra   |    deve    |
+| presidente |    três    |    pode    | presidente |   paulo    | governo  | presidente |    dois    |   grande   |    dois    |
+|   contra   |   contra   |  governo   |  milhões   |    dois    |  parte   |    pode    |    três    |    dois    |   contra   |
+|  milhões   |  governo   |    deve    |   contra   | presidente |   três   |  milhões   |    país    |    três    |  governo   |
+|   maior    |    nova    |    dois    |    pode    |    real    |  outros  |   mundo    | presidente |    deve    |    três    |
+|    novo    |  milhões   |   mundo    |   fazer    |    país    |   país   |   contra   |  milhões   |    país    |    nova    |
+|    real    | presidente |   estado   |    três    |   outros   | pessoas  |   outros   |   tempo    |  governo   |   todos    |
+|    três    |   tempo    |    três    |    nova    |   maior    |  contra  |   folha    |   mundo    |  pessoas   |   outros   |
+|    dois    |   maior    |   maior    |  mercado   |   grande   |   deve   |    país    |    deve    | presidente |   mundo    |
+|    deve    |  mercado   |  dinheiro  |    deve    |   desde    |  fazer   |  mercado   |   contra   |   mundo    | presidente |
+|   todos    |    país    |   fazer    |   folha    |   mundo    | mercado  |   grande   | brasileira |   fazer    |    país    |
+|   fazer    |   fazer    |    país    |   grande   |   estado   |   nova   |   parte    |   maior    | ilustrada  |   fazer    |
++------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+

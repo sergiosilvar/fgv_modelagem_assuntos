@@ -1,0 +1,24 @@
++---------+---------+---------+--------+--------+--------+---------+---------+---------+---------+
+|  Topic0 |  Topic1 |  Topic2 | Topic3 | Topic4 | Topic5 |  Topic6 |  Topic7 |  Topic8 |  Topic9 |
++---------+---------+---------+--------+--------+--------+---------+---------+---------+---------+
+|   casa  |  tempo  |   casa  |  casa  |  casa  | coisa  |   casa  |   casa  |   casa  |   casa  |
+|  olhos  |   tito  |  coisa  | tempo  | coisa  |  casa  |  tempo  |  olhos  |   dois  |  tempo  |
+|  homem  |   casa  |  tempo  | coisa  | tempo  | olhos  |  olhos  |  coisa  |  tempo  |  coisa  |
+|  tempo  |  coisa  |   vida  | olhos  |  dois  |  dois  |  homem  |  tempo  |  olhos  |   dois  |
+|   dois  |  olhos  |  olhos  | todos  | olhos  | tempo  |   dois  |  homem  |  coisa  |   moça  |
+|  coisa  |  todos  |  homem  | dizer  | todos  | poeta  |   amor  |   dois  |  homem  |  podia  |
+|  todos  |   dois  |   dois  |  duas  |  vida  | todos  |   moça  |   pode  |  todos  |  olhos  |
+|  dizer  |  dizer  |  dizer  | homem  | homem  | grande |   vida  |   dias  |   duas  |  homem  |
+|   vida  |  homem  |  todos  |  amor  | dizer  |  pode  |  coisa  |  todos  |   pode  |   vida  |
+|  senhor |   duas  |   duas  |  vida  |  dias  |  duas  |   pode  |  alguma |   moça  |   pode  |
+|   pode  |   anos  | coração |  pode  |  anos  | homem  |  poeta  |   vida  |   vida  |   amor  |
+|   amor  |  outros |   moça  | alguma |  moça  |  dias  | coração |   moça  |  mulher |   dias  |
+|  maria  |  alguns |  podia  |  dois  |  pode  | alguma |   duas  | coração |  grande |  dizer  |
+|  grande |  mulher |   pode  |  dias  |  duas  | dizer  |  noite  |  dizer  |   anos  |  alguns |
+|   dias  |   amor  |  alguns | alguns | alguns |  moça  |  pedro  |   anos  |  alguma |  alguma |
+|  alguma |  durval |  noite  |  luís  | alguma | alguns |  todos  |   amor  |  alguns |   anos  |
+|  outros | rosinha | verdade | podia  | grande |  anos  |  grande |  grande |   dias  |  senhor |
+|  noite  |  podia  |  alguma | grande | noite  | helena |  alguns |   duas  |  dizer  |  todos  |
+|  podia  |  fazer  |   anos  | fazer  |  toda  | sobre  |  alguma |  noite  | verdade |  carta  |
+| verdade |   vida  |  jorge  |  moça  | outros |  amor  |  dizer  |  outros | carlota | coração |
++---------+---------+---------+--------+--------+--------+---------+---------+---------+---------+
