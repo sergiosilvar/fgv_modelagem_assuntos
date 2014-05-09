@@ -27,5 +27,12 @@ O corpus das obras do escritor Machado de Assis contém uma coleção de 137 con
 Os documentos foram pré processados para remover palavras indesejadas como preposições, interjeições e outras de pouco valor semântico ao interesse da análise. Estas palavras estão registradas no arquivo stopwords_pt.txt.
 Após a removação das palavras comuns, cada documento foi tokenizado e [armazendo em arquivos](https://github.com/srodriguex/fgv_modelagem_assuntos/tree/master/machado/tokens) para otimizar futuras referências.
 
+Para executar o LDA com o Gensim, primeiro é necessário construir a estrutura que representa o vocabulário a ser analisado. Essa estrutura atribui um identificador exclusivo, inteiro, a cada palavra utilizada nos documentos que foram pré processados.
+
+
+
+
+, que *bag-of-words*,  repositório de palavras,
+
 Devido a quantidade de documentos a processar, decidimos realizar um pré processamento 
 dos documentos, removendo  foi utilizado o LDA da biblioteca GENSIM.
