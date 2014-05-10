@@ -27,7 +27,15 @@ O corpus das obras do escritor Machado de Assis contém uma coleção de 137 con
 Os documentos foram pré processados para remover palavras indesejadas como preposições, interjeições e outras de pouco valor semântico ao interesse da análise. Estas palavras estão registradas no arquivo stopwords_pt.txt.
 Após a removação das palavras comuns, cada documento foi tokenizado e [armazendo em arquivos](https://github.com/srodriguex/fgv_modelagem_assuntos/tree/master/machado/tokens) para otimizar futuras referências.
 
-Para executar o LDA com o Gensim, primeiro é necessário construir a estrutura que representa o vocabulário a ser analisado. Essa estrutura atribui um identificador exclusivo, inteiro, a cada palavra utilizada nos documentos que foram pré processados.
+Para executar o LDA com o Gensim, ao contrário do que está [na documentação](http://radimrehurek.com/gensim/tut1.html#from-strings-to-vectors), primeiro é necessário construir a estrutura que representa o vocabulário a ser analisado, para após construir o [*bag-of-words*](http://en.wikipedia.org/wiki/Bag_of_words). Nessa primeira etapa, carregamos todo o corpus em memória, e o passamos como parâmetro do construtor da classe [Dictionary](http://radimrehurek.com/gensim/corpora/dictionary.html):
+
+<code>
+    texts = documentos(pasta)
+    
+    dictionary = corpora.Dictionary(texts)
+</code>
+
+. Essa estrutura atribui um número ineitor como identificador exclusivo a cada palavra utilizada nos documentos, em nosso caso, a cada palavra nos documentos após o pré processamento. Em seguida, 
 
 
 
