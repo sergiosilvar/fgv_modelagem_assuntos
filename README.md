@@ -80,7 +80,30 @@ O resultado encontrado foi:
     |  podia  |  fazer  |   anos  | fazer  |  toda  | sobre  |  alguma |  noite  | verdade |  carta  |
     | verdade |   vida  |  jorge  |  moça  | outros |  amor  |  dizer  |  outros | carlota | coração |
     +---------+---------+---------+--------+--------+--------+---------+---------+---------+---------+
-, que *bag-of-words*,  repositório de palavras,
 
-Devido a quantidade de documentos a processar, decidimos realizar um pré processamento 
-dos documentos, removendo  foi utilizado o LDA da biblioteca GENSIM.
+Após evolução:
+
+    +------------+--------+---------+-----------+------------+------------+---------+----------+-----------+-----------+
+    |   Topic0   | Topic1 |  Topic2 |   Topic3  |   Topic4   |   Topic5   |  Topic6 |  Topic7  |   Topic8  |   Topic9  |
+    +------------+--------+---------+-----------+------------+------------+---------+----------+-----------+-----------+
+    |   cabeça   |  casa  |  pedro  |    nome   |    água    |  senhora   |  judeu  |   lado   |   barão   | respondeu |
+    |   helena   | tempo  |  mesma  |   quatro  |  gilliatt  |    luís    |  razão  | preciso  |    cena   |  parecia  |
+    |  palavra   | olhos  |  senhor |  gilliatt |   vento    |  carlota   |  jorge  |   sabe   |   dumont  |   pobre   |
+    |  gilliatt  | homem  |  oliver |    mesa   |   livro    |   oliver   |   quer  |   sala   |   joana   | continuou |
+    |   emília   | coisa  |  janela |  pequeno  |   alves    |   senhor   |   modo  | primeira |  mathilde |   entrou  |
+    |  cecília   |  dois  |  estela |   rubião  |   padre    |   gente    |  devia  |  terra   |  alvarez  |   ficou   |
+    |   costa    |  duas  |  grande |  valentim |   paulo    |   pessoa   |  ponto  |  lugar   |  rosinha  |   fazia   |
+    | lethierry  | dizer  |  comigo |    água   |   navio    |   desde    | nenhuma |  parte   |   durval  |   queria  |
+    |   leonor   | havia  |  muita  |    josé   |    flor    |   cabeça   |  nenhum |  parece  |    tito   |  criança  |
+    |    tito    | todos  |   digo  |   elisa   |   camões   |   horas    |  mundo  |  quero   |   larcey  |   velha   |
+    |  coronel   | podia  |  cinco  |   oliver  |   sombra   | cavalcante | ocasião | vontade  | esperança |   oliver  |
+    |   irmão    | noite  |  outras |   senhor  | lethierry  |   doutor   | próprio | espírito |   flores  |  ninguém  |
+    |   causa    |  pode  |  idéias |    deus   |   fundo    |   sikes    |  clara  |  creio   | margarida |    medo   |
+    | impossível | alguma | pessoas |   sofia   |   rosto    |  baronesa  |   quis  | gilliatt |   leonor  |   horas   |
+    |  silêncio  |  vida  |  creio  | lethierry |   manuel   |  palavra   | caminho | simples  |   emília  |   homens  |
+    |  momento   | porta  |  falar  |   contra  |    doce    |   bumble   |  neste  |  nesse   |  martins  |   muitas  |
+    |   clubin   | alguns |  pessoa |   mundo   |   clubin   |   cidade   |  deste  | daquela  |  tristão  |   ouviu   |
+    | déruchette | grande |  sikes  |   clubin  |    cima    |  leocádia  |  maior  |   alto   |    povo   |  minutos  |
+    |   sonho    | fazer  |  amigos |  júpiter  | déruchette |   dumont   |  oliver |  porém   |  fidélia  |    saiu   |
+    |  durande   |  dias  |  chapéu |  pinheiro |  durande   |   mulher   |   hora  |  contra  |   terra   |   voltou  |
+    +------------+--------+---------+-----------+------------+------------+---------+----------+-----------+-----------+
