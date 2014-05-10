@@ -81,6 +81,12 @@ O resultado encontrado foi:
     | verdade |   vida  |  jorge  |  moça  | outros |  amor  |  dizer  |  outros | carlota | coração |
     +---------+---------+---------+--------+--------+--------+---------+---------+---------+---------+
 
+Alerta:
+
+    2014-05-09 23:46:27,903 [MainThread  ] [WARNI]  too few updates, training might
+    not converge; consider increasing the number of passes or iterations to improve
+    accuracy
+
 Após evolução:
 
     +------------+--------+---------+-----------+------------+------------+---------+----------+-----------+-----------+
@@ -107,3 +113,112 @@ Após evolução:
     |   sonho    | fazer  |  amigos |  júpiter  | déruchette |   dumont   |  oliver |  porém   |  fidélia  |    saiu   |
     |  durande   |  dias  |  chapéu |  pinheiro |  durande   |   mulher   |   hora  |  contra  |   terra   |   voltou  |
     +------------+--------+---------+-----------+------------+------------+---------+----------+-----------+-----------+
+
+Filmes:
+
+    +------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+
+    |   Topic0   |   Topic1   |   Topic2   |   Topic3   |   Topic4   |   Topic5   |   Topic6   |   Topic7   |   Topic8   |   Topic9   |
+    +------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+
+    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |
+    |    well    |    time    |    time    |   would    |    time    |    time    |   would    |    time    | characters | character  |
+    |   films    |   people   | character  |    time    |   would    |   would    | characters |   would    |   would    |    time    |
+    |    time    | characters |    well    | character  | characters | character  |    time    |    well    | character  |   really   |
+    |   would    | character  |   would    |    life    |    well    |    best    | character  |   really   |    time    |   would    |
+    | characters |    well    |  director  |    well    | character  |    well    |   films    | characters |    well    |    best    |
+    |    life    |    life    | characters |   great    |   little   | characters |   scene    |    life    |   little   |   scene    |
+    | character  |   scenes   |   really   |   films    |   films    |   films    |    life    |   scene    |   really   |    well    |
+    |   people   |   little   |    life    | characters |    life    |   little   |   people   | character  |   scene    |   action   |
+    |   scene    |    best    |   little   |   really   |   scenes   |   movies   |   little   |   little   |    year    | characters |
+    |   movies   |    know    |   people   |    love    |   action   |  director  |   movies   |   people   | something  |   little   |
+    |    best    |   really   |   films    |   world    |   people   |   great    |  another   |   films    |   people   |    know    |
+    |   scenes   |   would    |   scenes   |   movies   |    work    |    year    |    well    |  director  |   seems    |   makes    |
+    |   little   |   films    |   movies   |    know    |   seems    |    know    |   action   |    best    |   years    |  director  |
+    |   action   |    made    |    made    |   little   |    love    |   script   |   really   |   still    |    know    |    love    |
+    |  audience  |  another   |   think    |   people   |   really   |   scene    |   great    |  another   |    love    |    show    |
+    |   great    |   scene    |    real    |    made    |  director  |    made    |   scenes   |   every    |   films    |   films    |
+    |    love    |   action   |  another   |   seems    |   great    |   really   |    back    |   scenes   |    made    |    life    |
+    |    know    |   movies   |   world    |   though   |    back    |    life    |    take    |  audience  |    back    |   still    |
+    |   seems    |   great    | something  |    best    |   though   |   every    |    know    |    gets    |   movies   |   though   |
+    +------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+
+    
+Depois
+
+    +------------+--------------+-------------+--------------+------------+------------+------------+------------+-------------+----------+
+    |   Topic0   |    Topic1    |    Topic2   |    Topic3    |   Topic4   |   Topic5   |   Topic6   |   Topic7   |    Topic8   |  Topic9  |
+    +------------+--------------+-------------+--------------+------------+------------+------------+------------+-------------+----------+
+    |   marie    |   greatest   |    glory    |   lebowski   |   murphy   |    gere    |    epic    |    film    |    lucas    |  truman  |
+    |   angela   |   portrait   |    walter   |  broderick   |  stillman  |  attorney  |    jake    |    time    |     jedi    | burbank  |
+    | australian |     lucy     |   scorsese  |   bowling    |  invasion  |   derek    | ambitious  |    well    |    anakin   |  niccol  |
+    |    mate    |    aaron     |    frank    |   buscemi    | marvelous  |   slave    |  portman   |   films    | astonishing |  shaft   |
+    |   church   |    lounge    |    karen    |     coen     | australia  |  wahlberg  |  natalie   | character  |   knights   | colored  |
+    |   exotic   |    neeson    |    miller   |    dating    |   reese    | friendship |   pacino   |   would    |   daniels   | charles  |
+    |  ireland   |  bowfinger   |    scored   |    redman    |    gory    |    lucy    |   voiced   |    life    |     matt    | motives  |
+    |   castle   |     mary     |   airplane  |    racism    |   multi    | adaptation |   naive    |   people   |   amidala   | cromwell |
+    |   emily    |    cheek     |     shaw    | sentimental  |   donny    |    phil    | suspicion  | characters |   uniforms  | creator  |
+    |    host    |    pride     |    palma    |    bunny     | carefully  |    nazi    |  sevigny   |   movies   |    cusack   | fabulous |
+    |  releases  |     liam     |   serving   |    weight    |   shine    | anastasia  | kidnappers |   really   |    naboo    |  philip  |
+    |    copy    |     lake     |     lama    |  confident   | commanding |   ramsey   | charlotte  |    best    |  perfection | gattaca  |
+    |   pupil    |   federal    |   scarface  |    creeps    |    firm    |  coppola   | idealistic |   little   |   picking   | idyllic  |
+    |   peace    |  groundhog   |   spending  | witherspoon  |   finely   |   report   |   desert   |    john    |   handsome  | mitchell |
+    |  reynolds  |    jimmy     | charismatic | accompanying | apprentice |   cards    |  patterns  |  however   |   galactic  | despair  |
+    |   nights   |   landing    |    hills    |    bound     |  cultural  |   memory   |  striking  |   world    |    libby    |   gere   |
+    | henstridge | surroundings |   reminder  |   montana    |   dramas   |   chaos    | conditions |    made    |   florida   |   ford   |
+    |   claude   |   colorful   |  strongest  |  redemption  |    loss    |  valjean   |  repeated  |   scene    |    empire   |   nail   |
+    |   breed    |    month     |  defending  |   destined   | producing  |    hong    |   purely   |   great    |    darth    | educated |
+    |   slick    |    robots    |    sixth    |    bowler    |    kiki    |    kong    |    andy    |   makes    |   freedom   |  prime   |
+    +------------+--------------+-------------+--------------+------------+------------+------------+------------+-------------+----------+
+    
+Mac morpho:
+
+    +------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+
+    |   Topic0   |   Topic1   |   Topic2   |   Topic3   |   Topic4   |  Topic5  |   Topic6   |   Topic7   |   Topic8   |   Topic9   |
+    +------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+
+    |   paulo    |  editoria  |  segundo   |  editoria  |   página   |  página  |   página   |   página   |  editoria  |   sobre    |
+    |   página   |   sobre    |   paulo    |   paulo    |  segundo   |  sobre   |  editoria  |   sobre    |   página   |   paulo    |
+    |   sobre    |  segundo   |   página   |  segundo   |   sobre    |  brasil  |   sobre    |  editoria  |  segundo   |  editoria  |
+    |  editoria  |   página   |   sobre    |   página   |  editoria  | editoria |   brasil   |   paulo    |   sobre    |   página   |
+    |  segundo   |    anos    |   brasil   |    anos    |    anos    | segundo  |   paulo    |    anos    |   brasil   |   brasil   |
+    |    anos    |   paulo    |  editoria  |   brasil   |   brasil   |  paulo   |  segundo   |  segundo   |    anos    |  segundo   |
+    |  governo   |   brasil   |    anos    |  governo   |  milhões   |   pode   |    anos    |   brasil   |   paulo    |    pode    |
+    |   brasil   |    pode    |   contra   |   sobre    |  governo   |   anos   |    dois    |    pode    |    pode    |    anos    |
+    |    pode    |    dois    | presidente |    dois    |    pode    |   dois   |  governo   |  governo   |   contra   |    deve    |
+    | presidente |    três    |    pode    | presidente |   paulo    | governo  | presidente |    dois    |   grande   |    dois    |
+    |   contra   |   contra   |  governo   |  milhões   |    dois    |  parte   |    pode    |    três    |    dois    |   contra   |
+    |  milhões   |  governo   |    deve    |   contra   | presidente |   três   |  milhões   |    país    |    três    |  governo   |
+    |   maior    |    nova    |    dois    |    pode    |    real    |  outros  |   mundo    | presidente |    deve    |    três    |
+    |    novo    |  milhões   |   mundo    |   fazer    |    país    |   país   |   contra   |  milhões   |    país    |    nova    |
+    |    real    | presidente |   estado   |    três    |   outros   | pessoas  |   outros   |   tempo    |  governo   |   todos    |
+    |    três    |   tempo    |    três    |    nova    |   maior    |  contra  |   folha    |   mundo    |  pessoas   |   outros   |
+    |    dois    |   maior    |   maior    |  mercado   |   grande   |   deve   |    país    |    deve    | presidente |   mundo    |
+    |    deve    |  mercado   |  dinheiro  |    deve    |   desde    |  fazer   |  mercado   |   contra   |   mundo    | presidente |
+    |   todos    |    país    |   fazer    |   folha    |   mundo    | mercado  |   grande   | brasileira |   fazer    |    país    |
+    |   fazer    |   fazer    |    país    |   grande   |   estado   |   nova   |   parte    |   maior    | ilustrada  |   fazer    |
+    +------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+
+    
+    
+Depois
+
+    +---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
+    |     Topic0    |   Topic1   |     Topic2     |      Topic3      |     Topic4    |     Topic5    |    Topic6   |   Topic7   |    Topic8   |      Topic9      |
+    +---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
+    |     premiê    |   poesia   |     poeta      |     sérvios      |     mais!     |     duran     |     6-13    |   página   |   cubanos   |      trakl       |
+    |  protestantes |   poemas   |    benetton    |    muçulmanos    |     balsa     |    fujimori   |     6-14    |  editoria  |   irlandês  |       balé       |
+    |   palestinos  |    tel.    |   veteranos    |       2-10       |      gene     |    racismo    |    still    |   sobre    |    poema    |    balanchine    |
+    |      2-10     |   freud    |     perdi      |     sarajevo     |     raoul     |     freud     |   paisagem  |    anos    |    milão    |    albaneses     |
+    |    ieltsin    |  benjamin  |   balanchine   |     expulsa      |  nacionalista |   whitewater  |  geometria  |   mundo    |  escritores |      freud       |
+    |     arafat    |   rocco    |   cunningham   |      caças       |    science    |     nudez     |     tel.    |  governo   |    poeta    | homossexualidade |
+    |    belfast    | balanchine |   monarquia    |      mais!       |    colorado   |      tel.     | ilustrações |    país    |  espetáculo |     salinas      |
+    |   libertação  |  aguilar   |   despertou    |     religião     |  nacionalismo |   biografia   |  mensagens  |    dois    |    mais!    |      poetas      |
+    |      otan     |    6-13    |     raiva      |     perpétua     |      tel.     |   católicos   |   infinito  | presidente |   chicago   |    cingapura     |
+    |      fein     | histórias  |      tel.      |  manifestantes   | originalidade |     morrem    |    terror   |  segundo   |    george   |      graham      |
+    |      sinn     |    6-14    |    talento     |       papa       |   escritora   |     bronx     |   sombras   |  pessoas   |  cunningham |   modernidade    |
+    |   católicos   |  queimar   |      gaza      |     croatas      |    estonia    | contemporânea |   espiral   |   contra   |    russos   |      georg       |
+    |    chiapas    |  estonia   |  objetividade  |      haiti       |     ascher    |    galáxia    |  balanchine |    pode    |   triunfo   |       otan       |
+    |    caldera    |  poética   |  observações   |     islâmico     |     rocco     |      gaza     |    micros   |   brasil   |    araras   |     nazista      |
+    |     hamas     |  crônicas  |  maravilhoso   | fundamentalistas |    colosio    |    derruba    |  satélites  |   livro    |     ódio    |       6-11       |
+    |  israelenses  |   press    |   williamson   |       lage       |   proteínas   |   invisíveis  |  astronomia |   outros   |   comecei   |      navio       |
+    |      ruiz     | filósofos  |   incomodar    |     rejeitam     |   criticaram  |      6-10     |   desejar   |    nova    | coreografia |       mama       |
+    |   israelense  |   raros    |      copo      |       f-16       |     arena     |    belfast    |    laços    |   paulo    |  bailarinos |      martha      |
+    |      papa     |    6-16    | impressionante |      sérvia      |   britânicos  |     boris     |    célula   |    três    |    treino   |    literário     |
+    | primeira-dama |  paradoxo  |      lyon      |  sequestradores  |     1.250     |    airlines   |     6-10    |   desde    |    berlim   |   terroristas    |
+    +---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
