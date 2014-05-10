@@ -1,24 +1,24 @@
-+---------+---------+---------+--------+--------+--------+---------+---------+---------+---------+
-|  Topic0 |  Topic1 |  Topic2 | Topic3 | Topic4 | Topic5 |  Topic6 |  Topic7 |  Topic8 |  Topic9 |
-+---------+---------+---------+--------+--------+--------+---------+---------+---------+---------+
-|   casa  |  tempo  |   casa  |  casa  |  casa  | coisa  |   casa  |   casa  |   casa  |   casa  |
-|  olhos  |   tito  |  coisa  | tempo  | coisa  |  casa  |  tempo  |  olhos  |   dois  |  tempo  |
-|  homem  |   casa  |  tempo  | coisa  | tempo  | olhos  |  olhos  |  coisa  |  tempo  |  coisa  |
-|  tempo  |  coisa  |   vida  | olhos  |  dois  |  dois  |  homem  |  tempo  |  olhos  |   dois  |
-|   dois  |  olhos  |  olhos  | todos  | olhos  | tempo  |   dois  |  homem  |  coisa  |   moça  |
-|  coisa  |  todos  |  homem  | dizer  | todos  | poeta  |   amor  |   dois  |  homem  |  podia  |
-|  todos  |   dois  |   dois  |  duas  |  vida  | todos  |   moça  |   pode  |  todos  |  olhos  |
-|  dizer  |  dizer  |  dizer  | homem  | homem  | grande |   vida  |   dias  |   duas  |  homem  |
-|   vida  |  homem  |  todos  |  amor  | dizer  |  pode  |  coisa  |  todos  |   pode  |   vida  |
-|  senhor |   duas  |   duas  |  vida  |  dias  |  duas  |   pode  |  alguma |   moça  |   pode  |
-|   pode  |   anos  | coração |  pode  |  anos  | homem  |  poeta  |   vida  |   vida  |   amor  |
-|   amor  |  outros |   moça  | alguma |  moça  |  dias  | coração |   moça  |  mulher |   dias  |
-|  maria  |  alguns |  podia  |  dois  |  pode  | alguma |   duas  | coração |  grande |  dizer  |
-|  grande |  mulher |   pode  |  dias  |  duas  | dizer  |  noite  |  dizer  |   anos  |  alguns |
-|   dias  |   amor  |  alguns | alguns | alguns |  moça  |  pedro  |   anos  |  alguma |  alguma |
-|  alguma |  durval |  noite  |  luís  | alguma | alguns |  todos  |   amor  |  alguns |   anos  |
-|  outros | rosinha | verdade | podia  | grande |  anos  |  grande |  grande |   dias  |  senhor |
-|  noite  |  podia  |  alguma | grande | noite  | helena |  alguns |   duas  |  dizer  |  todos  |
-|  podia  |  fazer  |   anos  | fazer  |  toda  | sobre  |  alguma |  noite  | verdade |  carta  |
-| verdade |   vida  |  jorge  |  moça  | outros |  amor  |  dizer  |  outros | carlota | coração |
-+---------+---------+---------+--------+--------+--------+---------+---------+---------+---------+
++-------------+--------------+----------+---------+---------+-------------+---------+----------+-------------+---------------+
+|    Topic0   |    Topic1    |  Topic2  |  Topic3 |  Topic4 |    Topic5   |  Topic6 |  Topic7  |    Topic8   |     Topic9    |
++-------------+--------------+----------+---------+---------+-------------+---------+----------+-------------+---------------+
+|     casa    |    capitu    |  rubião  |   casa  |  olhos  |    gente    |  gosto  |  gente   |    rubião   |     paulo     |
+|    rubião   |    padre     |  tempo   |   dias  |  tempo  |    flora    |   pois  |   ouvi   |     casa    |     tempo     |
+|   assunto   |     josé     |   dois   |  coisa  |  grande |    aires    |  pessoa | grandes  |    sofia    |     flora     |
+|    volta    |   escobar    |  olhos   |   dois  |   casa  |     dois    |   digo  |  velho   |   tristão   |     aires     |
+|     dois    |     acho     |   casa   |  viúva  |  coisa  |     casa    |   três  |   boca   |    marido   |      rita     |
+|    embora   |    comigo    |  dizer   |  dizer  |   ouvi  |    tempo    |   tais  |  muitas  |   fidélia   | desembargador |
+|    marido   |  seminário   |  podia   |  alguma |  gente  |    pedro    |   nome  | saudades |   flamengo  |     pedro     |
+|    olhos    |   tristão    |  mesma   |  filho  |  outros |    olhos    | memória |  ofício  |    aguiar   |    depressa   |
+|     quis    |   fidélia    |   duas   |   duas  |  dizer  |    velha    |  terra  |   pena   |    olhos    |   natividade  |
+|   tristão   |     casa     |  santa   |   pode  |   vida  |     quis    |   cada  |   cara   |    maria    |    costume    |
+|   fidélia   |    aguiar    |  coisa   |  creio  |   dois  |   política  |  muita  |  prazer  |    carmo    |     olhos     |
+| conselheiro | naturalmente |  apesar  | tristão |  todos  |   pessoas   |  saber  |  outros  |    coisa    |     cartas    |
+|    amigo    |    missa     |  passar  | fidélia | verdade |  natividade |  quatro |  amigos  |    podia    |      dois     |
+|    poucos   |    carmo     |  viúva   |  mesma  |   dias  |     pode    |  fazia  |  praia   |    dizer    |      moça     |
+|    amigos   |    glória    |   alma   |  coisas |   pode  | conversação |  acabou |  olhos   | conversação |      dias     |
+|    capaz    |   bentinho   | costume  | verdade | pessoas | conselheiro |  homens |   cima   |    palha    |     santa     |
+|    tempo    |    falou     |  noite   |  tempo  |  melhor |    estar    |  maior  |   fica   |    banco    |    segunda    |
+|    gente    |    europa    | começou  |  grande |  mesma  |   palavras  |  papel  |  vieram  |    tempo    |     santos    |
+|     pode    |   justina    |  pediu   |  podia  |  alguma |    amigos   | própria |  contou  |     duas    |    coração    |
+|    carta    |    cosme     | depressa |  marido |   anos  |    irmão    |  comigo |  cidade  |     pode    |     filhos    |
++-------------+--------------+----------+---------+---------+-------------+---------+----------+-------------+---------------+

@@ -1,24 +1,24 @@
-+------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+
-|   Topic0   |   Topic1   |   Topic2   |   Topic3   |   Topic4   |   Topic5   |   Topic6   |   Topic7   |   Topic8   |   Topic9   |
-+------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+
-|    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |
-|    well    |    time    |    time    |   would    |    time    |    time    |   would    |    time    | characters | character  |
-|   films    |   people   | character  |    time    |   would    |   would    | characters |   would    |   would    |    time    |
-|    time    | characters |    well    | character  | characters | character  |    time    |    well    | character  |   really   |
-|   would    | character  |   would    |    life    |    well    |    best    | character  |   really   |    time    |   would    |
-| characters |    well    |  director  |    well    | character  |    well    |   films    | characters |    well    |    best    |
-|    life    |    life    | characters |   great    |   little   | characters |   scene    |    life    |   little   |   scene    |
-| character  |   scenes   |   really   |   films    |   films    |   films    |    life    |   scene    |   really   |    well    |
-|   people   |   little   |    life    | characters |    life    |   little   |   people   | character  |   scene    |   action   |
-|   scene    |    best    |   little   |   really   |   scenes   |   movies   |   little   |   little   |    year    | characters |
-|   movies   |    know    |   people   |    love    |   action   |  director  |   movies   |   people   | something  |   little   |
-|    best    |   really   |   films    |   world    |   people   |   great    |  another   |   films    |   people   |    know    |
-|   scenes   |   would    |   scenes   |   movies   |    work    |    year    |    well    |  director  |   seems    |   makes    |
-|   little   |   films    |   movies   |    know    |   seems    |    know    |   action   |    best    |   years    |  director  |
-|   action   |    made    |    made    |   little   |    love    |   script   |   really   |   still    |    know    |    love    |
-|  audience  |  another   |   think    |   people   |   really   |   scene    |   great    |  another   |    love    |    show    |
-|   great    |   scene    |    real    |    made    |  director  |    made    |   scenes   |   every    |   films    |   films    |
-|    love    |   action   |  another   |   seems    |   great    |   really   |    back    |   scenes   |    made    |    life    |
-|    know    |   movies   |   world    |   though   |    back    |    life    |    take    |  audience  |    back    |   still    |
-|   seems    |   great    | something  |    best    |   though   |   every    |    know    |    gets    |   movies   |   though   |
-+------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+
++------------+--------------+-------------+--------------+------------+------------+------------+------------+-------------+----------+
+|   Topic0   |    Topic1    |    Topic2   |    Topic3    |   Topic4   |   Topic5   |   Topic6   |   Topic7   |    Topic8   |  Topic9  |
++------------+--------------+-------------+--------------+------------+------------+------------+------------+-------------+----------+
+|   marie    |   greatest   |    glory    |   lebowski   |   murphy   |    gere    |    epic    |    film    |    lucas    |  truman  |
+|   angela   |   portrait   |    walter   |  broderick   |  stillman  |  attorney  |    jake    |    time    |     jedi    | burbank  |
+| australian |     lucy     |   scorsese  |   bowling    |  invasion  |   derek    | ambitious  |    well    |    anakin   |  niccol  |
+|    mate    |    aaron     |    frank    |   buscemi    | marvelous  |   slave    |  portman   |   films    | astonishing |  shaft   |
+|   church   |    lounge    |    karen    |     coen     | australia  |  wahlberg  |  natalie   | character  |   knights   | colored  |
+|   exotic   |    neeson    |    miller   |    dating    |   reese    | friendship |   pacino   |   would    |   daniels   | charles  |
+|  ireland   |  bowfinger   |    scored   |    redman    |    gory    |    lucy    |   voiced   |    life    |     matt    | motives  |
+|   castle   |     mary     |   airplane  |    racism    |   multi    | adaptation |   naive    |   people   |   amidala   | cromwell |
+|   emily    |    cheek     |     shaw    | sentimental  |   donny    |    phil    | suspicion  | characters |   uniforms  | creator  |
+|    host    |    pride     |    palma    |    bunny     | carefully  |    nazi    |  sevigny   |   movies   |    cusack   | fabulous |
+|  releases  |     liam     |   serving   |    weight    |   shine    | anastasia  | kidnappers |   really   |    naboo    |  philip  |
+|    copy    |     lake     |     lama    |  confident   | commanding |   ramsey   | charlotte  |    best    |  perfection | gattaca  |
+|   pupil    |   federal    |   scarface  |    creeps    |    firm    |  coppola   | idealistic |   little   |   picking   | idyllic  |
+|   peace    |  groundhog   |   spending  | witherspoon  |   finely   |   report   |   desert   |    john    |   handsome  | mitchell |
+|  reynolds  |    jimmy     | charismatic | accompanying | apprentice |   cards    |  patterns  |  however   |   galactic  | despair  |
+|   nights   |   landing    |    hills    |    bound     |  cultural  |   memory   |  striking  |   world    |    libby    |   gere   |
+| henstridge | surroundings |   reminder  |   montana    |   dramas   |   chaos    | conditions |    made    |   florida   |   ford   |
+|   claude   |   colorful   |  strongest  |  redemption  |    loss    |  valjean   |  repeated  |   scene    |    empire   |   nail   |
+|   breed    |    month     |  defending  |   destined   | producing  |    hong    |   purely   |   great    |    darth    | educated |
+|   slick    |    robots    |    sixth    |    bowler    |    kiki    |    kong    |    andy    |   makes    |   freedom   |  prime   |
++------------+--------------+-------------+--------------+------------+------------+------------+------------+-------------+----------+

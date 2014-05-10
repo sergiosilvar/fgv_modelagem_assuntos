@@ -48,13 +48,26 @@ A saída deste método é um vetor de tuplas onde o primeiro elemento da tupla �
        [(3, 1), (6, 1), (7, 1)]]
 
 
-Finalmente, podemos executar o LDA. Em uma primeira abordagem, ingênua, passamos o corpus inteiro para o algortimo, de uma só vez:
-
+Finalmente, podemos executar o LDA, chamando a função `ldamodel.LdaModel()` passando o corpus, o dicionário e número de tópicos a ser encontrado.
+    
     lda = ldamodel.LdaModel(corpus, id2word=dictionary, num_topics=num_topics )
 
 Neste código, corpus é o `bag-of-words` construído na etapa anterior, o parâmetro `id2word` recebe o próprio dicionário, para que ao imprimir os resultados o texto contenha as palavras ao invés dos identificadores, e `num_topics` é o número de tópicos a ser analisado, uma restrição do algorimto LDA e que na biblioteca GENSIM possui o valor default de 10.
 
-O resultado encontrado foi:
+Após o processamento, para visualizar o resultado chamados a função `lda.show_topics()`, cuja saída é:
+
+    ['0.050*cabe\xc3\xa7a + 0.034*helena + 0.026*palavra + 0.025*gilliatt + 0.013*em\xc3\xadlia + 0.013*cec\xc3\xadlia + 0.010*costa + 0.009*lethierry + 0.008*leonor + 0.008*tito',
+     '0.038*casa + 0.033*tempo + 0.032*olhos + 0.031*homem + 0.029*coisa + 0.024*dois + 0.022*duas + 0.022*dizer + 0.022*havia + 0.021*todos',
+     '0.033*pedro + 0.028*mesma + 0.023*senhor + 0.020*oliver + 0.018*janela + 0.016*estela + 0.014*grande + 0.013*comigo + 0.012*muita + 0.012*digo',
+     '0.030*nome + 0.030*quatro + 0.024*gilliatt + 0.018*mesa + 0.017*pequeno + 0.015*rubi\xc3\xa3o + 0.015*valentim + 0.014*\xc3\xa1gua + 0.014*jos\xc3\xa9 + 0.013*elisa',
+     '0.019*\xc3\xa1gua + 0.018*gilliatt + 0.018*vento + 0.017*livro + 0.015*alves + 0.011*padre + 0.009*paulo + 0.008*navio + 0.008*flor + 0.008*cam\xc3\xb5es',
+     '0.068*senhora + 0.050*lu\xc3\xads + 0.034*carlota + 0.030*oliver + 0.030*senhor + 0.027*gente + 0.021*pessoa + 0.020*desde + 0.016*cabe\xc3\xa7a + 0.015*horas',
+     '0.031*judeu + 0.023*raz\xc3\xa3o + 0.022*jorge + 0.022*quer + 0.021*modo + 0.021*devia + 0.020*ponto + 0.020*nenhuma + 0.017*nenhum + 0.017*mundo',
+     '0.032*lado + 0.024*preciso + 0.023*sabe + 0.021*sala + 0.021*primeira + 0.019*terra + 0.019*lugar + 0.018*parte + 0.017*parece + 0.015*quero',
+     '0.046*bar\xc3\xa3o + 0.046*cena + 0.037*dumont + 0.032*joana + 0.027*mathilde + 0.026*alvarez + 0.023*rosinha + 0.021*durval + 0.019*tito + 0.018*larcey',
+     '0.013*respondeu + 0.011*parecia + 0.007*pobre + 0.007*continuou + 0.007*entrou + 0.007*ficou + 0.006*fazia + 0.006*queria + 0.006*crian\xc3\xa7a + 0.006*velha']
+
+Cada linha do vetor é um tópico, e seu conteúdo representa palavras mais relevantes e suas respectivas distribuições. Como o formato não é nada agradável à leitura, construímos um extrator, `topicos_txt`, para visualizar as palavras em forma de coluna. Temos então a seguinte tabela para 10 tópicos e 20 palavras mais relevantes:
     
     +---------+---------+---------+--------+--------+--------+---------+---------+---------+---------+
     |  Topic0 |  Topic1 |  Topic2 | Topic3 | Topic4 | Topic5 |  Topic6 |  Topic7 |  Topic8 |  Topic9 |
@@ -81,13 +94,17 @@ O resultado encontrado foi:
     | verdade |   vida  |  jorge  |  moça  | outros |  amor  |  dizer  |  outros | carlota | coração |
     +---------+---------+---------+--------+--------+--------+---------+---------+---------+---------+
 
-Alerta:
+Nota-se a repetição de muitas palavras entre os tópicos, o que nos leva a crer que o modelo não está sendo corretamente utilizado, e de fato não está, pois ao passar todo o corpus de uma única vez para o LDA o mesmo teve como resultado uma distribuição quase uniforme entre as palavras. Alteramos o código para processar os documentos do corpus iterativamente, um documento por vez, permitindo que a distribuição  posterior fosse atualizada em cada iteração.
 
-    2014-05-09 23:46:27,903 [MainThread  ] [WARNI]  too few updates, training might
-    not converge; consider increasing the number of passes or iterations to improve
-    accuracy
+    texts = documentos(pasta,filtro)
+    dictionary = corpora.Dictionary(texts)
+    corpus = [dictionary.doc2bow(text) for text in texts]
+    lda = ldamodel.LdaModel([corpus[0]], id2word=dictionary, num_topics=num_topics )
+    for i in range(1,len(corpus)):
+        lda.update([corpus[i]])
 
-Após evolução:
+    
+Após a execução do modelo, o resultado encontrado é mais expressivo que o anterior:    
 
     +------------+--------+---------+-----------+------------+------------+---------+----------+-----------+-----------+
     |   Topic0   | Topic1 |  Topic2 |   Topic3  |   Topic4   |   Topic5   |  Topic6 |  Topic7  |   Topic8  |   Topic9  |
@@ -114,6 +131,35 @@ Após evolução:
     |  durande   |  dias  |  chapéu |  pinheiro |  durande   |   mulher   |   hora  |  contra  |   terra   |   voltou  |
     +------------+--------+---------+-----------+------------+------------+---------+----------+-----------+-----------+
 
+Agora podemos perceber a ocorrência de palavras únicas em alguns tópicos, mas ainda não é possível discernir uma diferenciação significativa entre eles. De fato, analisamos toda a obra de Machado de Assis, romances, crônicas, contos, críticas e miscelânea. Talvez seja mais apropriado analisar cada tipo de obra. Romances, por exemplo, são textos longos, onde há uma grande repetição de verbos, afinal, os personagens executam ações para que a história desenvolva. Será correto esperar que os verbos tenham uma probabilidade nos tópicos maior que os substantivos, ou os próprios personagens? Vejamos o resultado do LDA aplicado somente aos romances: 
+	
+	+-------------+--------------+----------+---------+---------+-------------+---------+----------+-------------+---------------+
+	|    Topic0   |    Topic1    |  Topic2  |  Topic3 |  Topic4 |    Topic5   |  Topic6 |  Topic7  |    Topic8   |     Topic9    |
+	+-------------+--------------+----------+---------+---------+-------------+---------+----------+-------------+---------------+
+	|     casa    |    capitu    |  rubião  |   casa  |  olhos  |    gente    |  gosto  |  gente   |    rubião   |     paulo     |
+	|    rubião   |    padre     |  tempo   |   dias  |  tempo  |    flora    |   pois  |   ouvi   |     casa    |     tempo     |
+	|   assunto   |     josé     |   dois   |  coisa  |  grande |    aires    |  pessoa | grandes  |    sofia    |     flora     |
+	|    volta    |   escobar    |  olhos   |   dois  |   casa  |     dois    |   digo  |  velho   |   tristão   |     aires     |
+	|     dois    |     acho     |   casa   |  viúva  |  coisa  |     casa    |   três  |   boca   |    marido   |      rita     |
+	|    embora   |    comigo    |  dizer   |  dizer  |   ouvi  |    tempo    |   tais  |  muitas  |   fidélia   | desembargador |
+	|    marido   |  seminário   |  podia   |  alguma |  gente  |    pedro    |   nome  | saudades |   flamengo  |     pedro     |
+	|    olhos    |   tristão    |  mesma   |  filho  |  outros |    olhos    | memória |  ofício  |    aguiar   |    depressa   |
+	|     quis    |   fidélia    |   duas   |   duas  |  dizer  |    velha    |  terra  |   pena   |    olhos    |   natividade  |
+	|   tristão   |     casa     |  santa   |   pode  |   vida  |     quis    |   cada  |   cara   |    maria    |    costume    |
+	|   fidélia   |    aguiar    |  coisa   |  creio  |   dois  |   política  |  muita  |  prazer  |    carmo    |     olhos     |
+	| conselheiro | naturalmente |  apesar  | tristão |  todos  |   pessoas   |  saber  |  outros  |    coisa    |     cartas    |
+	|    amigo    |    missa     |  passar  | fidélia | verdade |  natividade |  quatro |  amigos  |    podia    |      dois     |
+	|    poucos   |    carmo     |  viúva   |  mesma  |   dias  |     pode    |  fazia  |  praia   |    dizer    |      moça     |
+	|    amigos   |    glória    |   alma   |  coisas |   pode  | conversação |  acabou |  olhos   | conversação |      dias     |
+	|    capaz    |   bentinho   | costume  | verdade | pessoas | conselheiro |  homens |   cima   |    palha    |     santa     |
+	|    tempo    |    falou     |  noite   |  tempo  |  melhor |    estar    |  maior  |   fica   |    banco    |    segunda    |
+	|    gente    |    europa    | começou  |  grande |  mesma  |   palavras  |  papel  |  vieram  |    tempo    |     santos    |
+	|     pode    |   justina    |  pediu   |  podia  |  alguma |    amigos   | própria |  contou  |     duas    |    coração    |
+	|    carta    |    cosme     | depressa |  marido |   anos  |    irmão    |  comigo |  cidade  |     pode    |     filhos    |
+	+-------------+--------------+----------+---------+---------+-------------+---------+----------+-------------+---------------+
+
+Nosso corpus possui 10 romances, então escolhemos 10 tópicos como entrada para o LDA. Diferente do que esperávamos, os verbos não são as palavras mais relevantes dos tópicos. Podíamos esperar também que os personagens ficassem localizados em tópicos exclusivos, mas esse não foi o caso de Rubião, 
+    
 Filmes:
 
     +------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+

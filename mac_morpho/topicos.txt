@@ -1,24 +1,24 @@
-+------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+
-|   Topic0   |   Topic1   |   Topic2   |   Topic3   |   Topic4   |  Topic5  |   Topic6   |   Topic7   |   Topic8   |   Topic9   |
-+------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+
-|   paulo    |  editoria  |  segundo   |  editoria  |   página   |  página  |   página   |   página   |  editoria  |   sobre    |
-|   página   |   sobre    |   paulo    |   paulo    |  segundo   |  sobre   |  editoria  |   sobre    |   página   |   paulo    |
-|   sobre    |  segundo   |   página   |  segundo   |   sobre    |  brasil  |   sobre    |  editoria  |  segundo   |  editoria  |
-|  editoria  |   página   |   sobre    |   página   |  editoria  | editoria |   brasil   |   paulo    |   sobre    |   página   |
-|  segundo   |    anos    |   brasil   |    anos    |    anos    | segundo  |   paulo    |    anos    |   brasil   |   brasil   |
-|    anos    |   paulo    |  editoria  |   brasil   |   brasil   |  paulo   |  segundo   |  segundo   |    anos    |  segundo   |
-|  governo   |   brasil   |    anos    |  governo   |  milhões   |   pode   |    anos    |   brasil   |   paulo    |    pode    |
-|   brasil   |    pode    |   contra   |   sobre    |  governo   |   anos   |    dois    |    pode    |    pode    |    anos    |
-|    pode    |    dois    | presidente |    dois    |    pode    |   dois   |  governo   |  governo   |   contra   |    deve    |
-| presidente |    três    |    pode    | presidente |   paulo    | governo  | presidente |    dois    |   grande   |    dois    |
-|   contra   |   contra   |  governo   |  milhões   |    dois    |  parte   |    pode    |    três    |    dois    |   contra   |
-|  milhões   |  governo   |    deve    |   contra   | presidente |   três   |  milhões   |    país    |    três    |  governo   |
-|   maior    |    nova    |    dois    |    pode    |    real    |  outros  |   mundo    | presidente |    deve    |    três    |
-|    novo    |  milhões   |   mundo    |   fazer    |    país    |   país   |   contra   |  milhões   |    país    |    nova    |
-|    real    | presidente |   estado   |    três    |   outros   | pessoas  |   outros   |   tempo    |  governo   |   todos    |
-|    três    |   tempo    |    três    |    nova    |   maior    |  contra  |   folha    |   mundo    |  pessoas   |   outros   |
-|    dois    |   maior    |   maior    |  mercado   |   grande   |   deve   |    país    |    deve    | presidente |   mundo    |
-|    deve    |  mercado   |  dinheiro  |    deve    |   desde    |  fazer   |  mercado   |   contra   |   mundo    | presidente |
-|   todos    |    país    |   fazer    |   folha    |   mundo    | mercado  |   grande   | brasileira |   fazer    |    país    |
-|   fazer    |   fazer    |    país    |   grande   |   estado   |   nova   |   parte    |   maior    | ilustrada  |   fazer    |
-+------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+
++---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
+|     Topic0    |   Topic1   |     Topic2     |      Topic3      |     Topic4    |     Topic5    |    Topic6   |   Topic7   |    Topic8   |      Topic9      |
++---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
+|     premiê    |   poesia   |     poeta      |     sérvios      |     mais!     |     duran     |     6-13    |   página   |   cubanos   |      trakl       |
+|  protestantes |   poemas   |    benetton    |    muçulmanos    |     balsa     |    fujimori   |     6-14    |  editoria  |   irlandês  |       balé       |
+|   palestinos  |    tel.    |   veteranos    |       2-10       |      gene     |    racismo    |    still    |   sobre    |    poema    |    balanchine    |
+|      2-10     |   freud    |     perdi      |     sarajevo     |     raoul     |     freud     |   paisagem  |    anos    |    milão    |    albaneses     |
+|    ieltsin    |  benjamin  |   balanchine   |     expulsa      |  nacionalista |   whitewater  |  geometria  |   mundo    |  escritores |      freud       |
+|     arafat    |   rocco    |   cunningham   |      caças       |    science    |     nudez     |     tel.    |  governo   |    poeta    | homossexualidade |
+|    belfast    | balanchine |   monarquia    |      mais!       |    colorado   |      tel.     | ilustrações |    país    |  espetáculo |     salinas      |
+|   libertação  |  aguilar   |   despertou    |     religião     |  nacionalismo |   biografia   |  mensagens  |    dois    |    mais!    |      poetas      |
+|      otan     |    6-13    |     raiva      |     perpétua     |      tel.     |   católicos   |   infinito  | presidente |   chicago   |    cingapura     |
+|      fein     | histórias  |      tel.      |  manifestantes   | originalidade |     morrem    |    terror   |  segundo   |    george   |      graham      |
+|      sinn     |    6-14    |    talento     |       papa       |   escritora   |     bronx     |   sombras   |  pessoas   |  cunningham |   modernidade    |
+|   católicos   |  queimar   |      gaza      |     croatas      |    estonia    | contemporânea |   espiral   |   contra   |    russos   |      georg       |
+|    chiapas    |  estonia   |  objetividade  |      haiti       |     ascher    |    galáxia    |  balanchine |    pode    |   triunfo   |       otan       |
+|    caldera    |  poética   |  observações   |     islâmico     |     rocco     |      gaza     |    micros   |   brasil   |    araras   |     nazista      |
+|     hamas     |  crônicas  |  maravilhoso   | fundamentalistas |    colosio    |    derruba    |  satélites  |   livro    |     ódio    |       6-11       |
+|  israelenses  |   press    |   williamson   |       lage       |   proteínas   |   invisíveis  |  astronomia |   outros   |   comecei   |      navio       |
+|      ruiz     | filósofos  |   incomodar    |     rejeitam     |   criticaram  |      6-10     |   desejar   |    nova    | coreografia |       mama       |
+|   israelense  |   raros    |      copo      |       f-16       |     arena     |    belfast    |    laços    |   paulo    |  bailarinos |      martha      |
+|      papa     |    6-16    | impressionante |      sérvia      |   britânicos  |     boris     |    célula   |    três    |    treino   |    literário     |
+| primeira-dama |  paradoxo  |      lyon      |  sequestradores  |     1.250     |    airlines   |     6-10    |   desde    |    berlim   |   terroristas    |
++---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
