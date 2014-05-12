@@ -158,36 +158,71 @@ Agora podemos perceber a ocorrência de palavras únicas em alguns tópicos, mas
 	|    carta    |    cosme     | depressa |  marido |   anos  |    irmão    |  comigo |  cidade  |     pode    |     filhos    |
 	+-------------+--------------+----------+---------+---------+-------------+---------+----------+-------------+---------------+
 
-Nosso corpus possui 10 romances, então escolhemos 10 tópicos como entrada para o LDA. Diferente do que esperávamos, os verbos não são as palavras mais relevantes dos tópicos. Podíamos esperar também que os personagens ficassem localizados em tópicos exclusivos, mas esse não foi o caso de Rubião, 
-    
-Filmes:
+Esse corpus possui os 10 romances de Machado de Assis, então escolhemos 10 tópicos como entrada para o LDA. Diferente do que esperávamos, os verbos não são as palavras mais relevantes dos tópicos. Podíamos esperar também que os personagens ficassem localizados em tópicos exclusivos, mas esse não foi o caso de Rubião, personagem do romance [Quincas Borba](http://pt.wikipedia.org/wiki/Quincas_Borba), uma das três obras que compõe a [trilogia realista](http://pt.wikipedia.org/wiki/Trilogia_Realista).  Tristão, personagem do romance [Memorial de Aires](http://www.sosestudante.com/resumos-m/memorial-de-aires-machado-de-assis-2--2.html) aparece ainda em mais tópicos do que Rubião. Uma análise qualitativa do resultado do LDA com este corpus requer conhecimento da obra de Machado de Assis, o que está além do alcance deste trabalho. Mas podemos perceber que talvez o LDA não seja apropriado para classificação de obras literárias, sendo cada obra um documento para o modelo. Podemos propor como trabalho futuro a análise individual das obras, tomando-se os capítulos como documentos, a fim de determinar os tópicos presentes a cada capítulo, e talvez explicitar uma evolução  dos tópicos relevantes conforme a cronologia da obra.
 
-    +------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+
-    |   Topic0   |   Topic1   |   Topic2   |   Topic3   |   Topic4   |   Topic5   |   Topic6   |   Topic7   |   Topic8   |   Topic9   |
-    +------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+
-    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |    film    |
-    |    well    |    time    |    time    |   would    |    time    |    time    |   would    |    time    | characters | character  |
-    |   films    |   people   | character  |    time    |   would    |   would    | characters |   would    |   would    |    time    |
-    |    time    | characters |    well    | character  | characters | character  |    time    |    well    | character  |   really   |
-    |   would    | character  |   would    |    life    |    well    |    best    | character  |   really   |    time    |   would    |
-    | characters |    well    |  director  |    well    | character  |    well    |   films    | characters |    well    |    best    |
-    |    life    |    life    | characters |   great    |   little   | characters |   scene    |    life    |   little   |   scene    |
-    | character  |   scenes   |   really   |   films    |   films    |   films    |    life    |   scene    |   really   |    well    |
-    |   people   |   little   |    life    | characters |    life    |   little   |   people   | character  |   scene    |   action   |
-    |   scene    |    best    |   little   |   really   |   scenes   |   movies   |   little   |   little   |    year    | characters |
-    |   movies   |    know    |   people   |    love    |   action   |  director  |   movies   |   people   | something  |   little   |
-    |    best    |   really   |   films    |   world    |   people   |   great    |  another   |   films    |   people   |    know    |
-    |   scenes   |   would    |   scenes   |   movies   |    work    |    year    |    well    |  director  |   seems    |   makes    |
-    |   little   |   films    |   movies   |    know    |   seems    |    know    |   action   |    best    |   years    |  director  |
-    |   action   |    made    |    made    |   little   |    love    |   script   |   really   |   still    |    know    |    love    |
-    |  audience  |  another   |   think    |   people   |   really   |   scene    |   great    |  another   |    love    |    show    |
-    |   great    |   scene    |    real    |    made    |  director  |    made    |   scenes   |   every    |   films    |   films    |
-    |    love    |   action   |  another   |   seems    |   great    |   really   |    back    |   scenes   |    made    |    life    |
-    |    know    |   movies   |   world    |   though   |    back    |    life    |    take    |  audience  |    back    |   still    |
-    |   seems    |   great    | something  |    best    |   though   |   every    |    know    |    gets    |   movies   |   though   |
-    +------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+
-    
-Depois
+Tentemos então analisar a coleção de contos, textos mais curtos, seguindo a idéia proposta acima, mantendo o número de tópicos em 20, e exibindo as 20 palavras mais relevantes.
+
+	+------------+------------+-------------+-----------+-----------+-------------+-------------+-----------+------------+------------+-----------+------------+-------------+------------+-----------+-----------+-----------+------------+-----------+-------------+
+	|   Topic0   |   Topic1   |    Topic2   |   Topic3  |   Topic4  |    Topic5   |    Topic6   |   Topic7  |   Topic8   |   Topic9   |  Topic10  |  Topic11   |   Topic12   |  Topic13   |  Topic14  |  Topic15  |  Topic16  |  Topic17   |  Topic18  |   Topic19   |
+	+------------+------------+-------------+-----------+-----------+-------------+-------------+-----------+------------+------------+-----------+------------+-------------+------------+-----------+-----------+-----------+------------+-----------+-------------+
+	|   contos   |   camilo   |    irmão    |  henrique |  oliveira |     flor    |    xavier   |   marido  |  escrivão  | fernandes  |   tomás   |   paulo    |    julião   |  coimbra   |    irmã   |   olhos   |  barreto  |   versos   |   camila  |  henriqueta |
+	|  ricardo   |   cobra    |   joaninha  |  bagatela |  genoveva |   martinha  |     góis    |   amiga   |   grande   |   estela   |   raquel  |    cruz    |   pimentel  |   máximo   |  jucunda  |   tempo   | ermelinda |   morrer   |   paula   |     casa    |
+	|  marcela   |   bicho    |    julião   |  ventura  |  carlota  |   porfírio  |     dona    | gonçalves |   estela   |   tomás    |   matias  |  cardeal   | fernandinha |  loteria   |  oficial  |    dias   |   baile   |   janela   |  artista  |     moça    |
+	|  coimbra   |    leão    |  inglesinha |   morto   |   sonho   |    glória   |     nohr    |  genoveva |   sótão    |   raquel   | severiano |  general   |   palavra   |  bilhete   |  madrinha |    dois   |  brandão  |  alberta   |  valentim |    julião   |
+	| felismina  | almanaques |   barcelos  |   quatro  |   tomás   |   vestido   |    rosas    |   vieira  |  castelo   |   sótão    |   clara   |    josé    |    sales    |   escola   |  raimunda |    anos   |  cesário  |   finoca   |   vênus   |   pimentel  |
+	|  romualdo  | esperança  |    caldas   |    nohr   |   raquel  |   ezequiel  |   charmion  |   xavier  |  coimbra   |  castelo   |  barreto  |  julieta   |    rindo    | quinhentos |   carmo   |   coisa   |    bota   |   macedo   |  clarinha | fernandinha |
+	|  loteria   |   tobias   | fernandinha |   tomás   | marcelina |    neves    |  jardineiro |  jucunda  |   mesma    |  malvina   |  romualdo |  marques   |    cabeça   |   sorte    |   teatro  |    vida   |  direita  |   estela   |  ernesto  |     dois    |
+	|   escola   | bonifácio  |   cecília   |   raquel  |  beatriz  | consciência |   escriba   |  alberta  |    nohr    |   mesma    |  delfina  |   seixas   |  legazinha  |  bernardo  |    quis   |  família  |  esquerda |   sótão    |   xavier  |    estela   |
+	|  bilhete   |  eulália   |  celestina  |  charmion | professor |   delgado   |    egito    |   finoca  |  loteria   |   duarte   | ermelinda |  leocádia  |    tomás    | irmandade  |  eusébio  |   alguns  |  eduardo  |  castelo   |   teatro  |   família   |
+	| quinhentos |   gomes    |   palavra   |  escriba  |  eduardo  |    bento    |    faraó    |    góis   |  bilhete   |  barreto   |   baile   |  augusto   |    raquel   |   teatro   |   cirila  | perguntou |   botas   |  ricardo   |    quis   |   palavra   |
+	|   sorte    |  gustavo   |    rindo    |   egito   | bastinhos |   cândido   |    mucama   |   macedo  |   escola   |  família   | fernandes | madureira  |    quadro   |    quis    |  dolores  |    casa   |   pedro   |   mesma    |  bagatela |     amor    |
+	|  bernardo  |    fita    |    cabeça   |   faraó   |   laura   |   capitão   |   barbosa   |  valentim | quinhentos | ermelinda  |   xavier  |   elvira   |    jantar   |   pobre    |  anacleto |  coração  |    lulu   |  andrade   |  ricardo  |    caldas   |
+	| irmandade  |   máximo   |   pimentel  |   luísa   |  anacleto |   anacleto  |    joana    |    dona   |  bernardo  |   baile    |  alberta  |  germano   |   julieta   |  bagatela  |  adriano  |   porta   |  emiliana |  bagatela  |    góis   |    rindo    |
+	|  carteira  | procurador |    romeu    |  rochinha |  adriano  |   adriano   |    inácio   |   sonho   |   sorte    |   grande   |   finoca  |  cândido   |   augusto   |    cruz    |  fagundes |   melhor  | alexandre |  marcela   |  ventura  |    cabeça   |
+	|  honório   | colchoeiro |    major    | professor |   caldas  |    inácia   |  violoncelo |    irmã   | irmandade  |  romualdo  |  antunes  | colchoeiro |  bastinhos  |  cardeal   |  monteiro |    duas   |   ambas   |  família   |    dona   |    sótão    |
+	| fernandes  |   pálida   |   bacharel  |   vieira  |  fagundes |   fagundes  |   machete   |  madrinha |  charmion  |  programa  |   macedo  |   rufina   |   leocádia  |  general   |   desde   |    réis   |   miloca  | felismina  |   morto   |   joaninha  |
+	|  escrivão  |   rufina   |    emílio   |   toledo  |  pimentel |  damasceno  |    amaral   |  raimunda |  família   |  ministro  |  programa |   ângela   |    todas    |  ventura   | boticário |   viúva   |   adolfo  |   grande   |  marcela  |   castelo   |
+	|   corte    | marianinha |   venância  |   amiga   |  monteiro |   monteiro  |    júlio    |  ernesto  |  escriba   |   mestre   |    góis   |  alfredo   |     lata    |   morto    |  madalena |   sobre   |  vocação  | henriqueta | felismina |    tempo    |
+	|  programa  |   pobre    |    marcos   |  cândido  |   desde   |   barbeiro  | instrumento |   carmo   |   egito    |   vizir    |  ministro |   inácia   |    estilo   |   josefa   |   vinte   |   velho   |  rodrigo  |  ventura   |   prima   |    mesma    |
+	|  ministro  | estudante  |   eugênia   |   europa  | boticário |    votos    |    cartas   |  rochinha |   faraó    | escritório |    dona   |  valério   |     rabo    |  mariana   |   pinto   |   jantar  | pulquéria |   morto    |  henrique |   ricardo   |
+	+------------+------------+-------------+-----------+-----------+-------------+-------------+-----------+------------+------------+-----------+------------+-------------+------------+-----------+-----------+-----------+------------+-----------+-------------+
+
+
+Sendo uma avaliação qualitativa literária fora do escopo deste trabalho, decidimos usar um corpus mais adequado a este tipo de análise, e recorremos novamente ao [NLTK](http://nltk.org), usando o dataset [Mac Morpho](http://www.nilc.icmc.usp.br/lacioweb/corpora.htm), uma coletânea de artigos dos cadernos de Esportes, Dinheiro, Ciência, Agronomia, Informática, Mundo, Brasil e Cotidiano, do jornal [Folha de São Paulo](http://www.folha.uol.com.br), restritos ao ano de 1994.
+
+Eis o resultado com 10 tópicos e 20 palavras.
+
+    +---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
+    |     Topic0    |   Topic1   |     Topic2     |      Topic3      |     Topic4    |     Topic5    |    Topic6   |   Topic7   |    Topic8   |      Topic9      |
+    +---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
+    |     premiê    |   poesia   |     poeta      |     sérvios      |     mais!     |     duran     |     6-13    |   página   |   cubanos   |      trakl       |
+    |  protestantes |   poemas   |    benetton    |    muçulmanos    |     balsa     |    fujimori   |     6-14    |  editoria  |   irlandês  |       balé       |
+    |   palestinos  |    tel.    |   veteranos    |       2-10       |      gene     |    racismo    |    still    |   sobre    |    poema    |    balanchine    |
+    |      2-10     |   freud    |     perdi      |     sarajevo     |     raoul     |     freud     |   paisagem  |    anos    |    milão    |    albaneses     |
+    |    ieltsin    |  benjamin  |   balanchine   |     expulsa      |  nacionalista |   whitewater  |  geometria  |   mundo    |  escritores |      freud       |
+    |     arafat    |   rocco    |   cunningham   |      caças       |    science    |     nudez     |     tel.    |  governo   |    poeta    | homossexualidade |
+    |    belfast    | balanchine |   monarquia    |      mais!       |    colorado   |      tel.     | ilustrações |    país    |  espetáculo |     salinas      |
+    |   libertação  |  aguilar   |   despertou    |     religião     |  nacionalismo |   biografia   |  mensagens  |    dois    |    mais!    |      poetas      |
+    |      otan     |    6-13    |     raiva      |     perpétua     |      tel.     |   católicos   |   infinito  | presidente |   chicago   |    cingapura     |
+    |      fein     | histórias  |      tel.      |  manifestantes   | originalidade |     morrem    |    terror   |  segundo   |    george   |      graham      |
+    |      sinn     |    6-14    |    talento     |       papa       |   escritora   |     bronx     |   sombras   |  pessoas   |  cunningham |   modernidade    |
+    |   católicos   |  queimar   |      gaza      |     croatas      |    estonia    | contemporânea |   espiral   |   contra   |    russos   |      georg       |
+    |    chiapas    |  estonia   |  objetividade  |      haiti       |     ascher    |    galáxia    |  balanchine |    pode    |   triunfo   |       otan       |
+    |    caldera    |  poética   |  observações   |     islâmico     |     rocco     |      gaza     |    micros   |   brasil   |    araras   |     nazista      |
+    |     hamas     |  crônicas  |  maravilhoso   | fundamentalistas |    colosio    |    derruba    |  satélites  |   livro    |     ódio    |       6-11       |
+    |  israelenses  |   press    |   williamson   |       lage       |   proteínas   |   invisíveis  |  astronomia |   outros   |   comecei   |      navio       |
+    |      ruiz     | filósofos  |   incomodar    |     rejeitam     |   criticaram  |      6-10     |   desejar   |    nova    | coreografia |       mama       |
+    |   israelense  |   raros    |      copo      |       f-16       |     arena     |    belfast    |    laços    |   paulo    |  bailarinos |      martha      |
+    |      papa     |    6-16    | impressionante |      sérvia      |   britânicos  |     boris     |    célula   |    três    |    treino   |    literário     |
+    | primeira-dama |  paradoxo  |      lyon      |  sequestradores  |     1.250     |    airlines   |     6-10    |   desde    |    berlim   |   terroristas    |
+    +---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
+
+
+A seguir, estendemos o número de tópicos para 20, mas exibimos somente as 10 palavras mais relevantes.
+
+
+
+Filmes:
 
     +------------+--------------+-------------+--------------+------------+------------+------------+------------+-------------+----------+
     |   Topic0   |    Topic1    |    Topic2   |    Topic3    |   Topic4   |   Topic5   |   Topic6   |   Topic7   |    Topic8   |  Topic9  |
@@ -214,57 +249,3 @@ Depois
     |   slick    |    robots    |    sixth    |    bowler    |    kiki    |    kong    |    andy    |   makes    |   freedom   |  prime   |
     +------------+--------------+-------------+--------------+------------+------------+------------+------------+-------------+----------+
     
-Mac morpho:
-
-    +------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+
-    |   Topic0   |   Topic1   |   Topic2   |   Topic3   |   Topic4   |  Topic5  |   Topic6   |   Topic7   |   Topic8   |   Topic9   |
-    +------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+
-    |   paulo    |  editoria  |  segundo   |  editoria  |   página   |  página  |   página   |   página   |  editoria  |   sobre    |
-    |   página   |   sobre    |   paulo    |   paulo    |  segundo   |  sobre   |  editoria  |   sobre    |   página   |   paulo    |
-    |   sobre    |  segundo   |   página   |  segundo   |   sobre    |  brasil  |   sobre    |  editoria  |  segundo   |  editoria  |
-    |  editoria  |   página   |   sobre    |   página   |  editoria  | editoria |   brasil   |   paulo    |   sobre    |   página   |
-    |  segundo   |    anos    |   brasil   |    anos    |    anos    | segundo  |   paulo    |    anos    |   brasil   |   brasil   |
-    |    anos    |   paulo    |  editoria  |   brasil   |   brasil   |  paulo   |  segundo   |  segundo   |    anos    |  segundo   |
-    |  governo   |   brasil   |    anos    |  governo   |  milhões   |   pode   |    anos    |   brasil   |   paulo    |    pode    |
-    |   brasil   |    pode    |   contra   |   sobre    |  governo   |   anos   |    dois    |    pode    |    pode    |    anos    |
-    |    pode    |    dois    | presidente |    dois    |    pode    |   dois   |  governo   |  governo   |   contra   |    deve    |
-    | presidente |    três    |    pode    | presidente |   paulo    | governo  | presidente |    dois    |   grande   |    dois    |
-    |   contra   |   contra   |  governo   |  milhões   |    dois    |  parte   |    pode    |    três    |    dois    |   contra   |
-    |  milhões   |  governo   |    deve    |   contra   | presidente |   três   |  milhões   |    país    |    três    |  governo   |
-    |   maior    |    nova    |    dois    |    pode    |    real    |  outros  |   mundo    | presidente |    deve    |    três    |
-    |    novo    |  milhões   |   mundo    |   fazer    |    país    |   país   |   contra   |  milhões   |    país    |    nova    |
-    |    real    | presidente |   estado   |    três    |   outros   | pessoas  |   outros   |   tempo    |  governo   |   todos    |
-    |    três    |   tempo    |    três    |    nova    |   maior    |  contra  |   folha    |   mundo    |  pessoas   |   outros   |
-    |    dois    |   maior    |   maior    |  mercado   |   grande   |   deve   |    país    |    deve    | presidente |   mundo    |
-    |    deve    |  mercado   |  dinheiro  |    deve    |   desde    |  fazer   |  mercado   |   contra   |   mundo    | presidente |
-    |   todos    |    país    |   fazer    |   folha    |   mundo    | mercado  |   grande   | brasileira |   fazer    |    país    |
-    |   fazer    |   fazer    |    país    |   grande   |   estado   |   nova   |   parte    |   maior    | ilustrada  |   fazer    |
-    +------------+------------+------------+------------+------------+----------+------------+------------+------------+------------+
-    
-    
-Depois
-
-    +---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
-    |     Topic0    |   Topic1   |     Topic2     |      Topic3      |     Topic4    |     Topic5    |    Topic6   |   Topic7   |    Topic8   |      Topic9      |
-    +---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
-    |     premiê    |   poesia   |     poeta      |     sérvios      |     mais!     |     duran     |     6-13    |   página   |   cubanos   |      trakl       |
-    |  protestantes |   poemas   |    benetton    |    muçulmanos    |     balsa     |    fujimori   |     6-14    |  editoria  |   irlandês  |       balé       |
-    |   palestinos  |    tel.    |   veteranos    |       2-10       |      gene     |    racismo    |    still    |   sobre    |    poema    |    balanchine    |
-    |      2-10     |   freud    |     perdi      |     sarajevo     |     raoul     |     freud     |   paisagem  |    anos    |    milão    |    albaneses     |
-    |    ieltsin    |  benjamin  |   balanchine   |     expulsa      |  nacionalista |   whitewater  |  geometria  |   mundo    |  escritores |      freud       |
-    |     arafat    |   rocco    |   cunningham   |      caças       |    science    |     nudez     |     tel.    |  governo   |    poeta    | homossexualidade |
-    |    belfast    | balanchine |   monarquia    |      mais!       |    colorado   |      tel.     | ilustrações |    país    |  espetáculo |     salinas      |
-    |   libertação  |  aguilar   |   despertou    |     religião     |  nacionalismo |   biografia   |  mensagens  |    dois    |    mais!    |      poetas      |
-    |      otan     |    6-13    |     raiva      |     perpétua     |      tel.     |   católicos   |   infinito  | presidente |   chicago   |    cingapura     |
-    |      fein     | histórias  |      tel.      |  manifestantes   | originalidade |     morrem    |    terror   |  segundo   |    george   |      graham      |
-    |      sinn     |    6-14    |    talento     |       papa       |   escritora   |     bronx     |   sombras   |  pessoas   |  cunningham |   modernidade    |
-    |   católicos   |  queimar   |      gaza      |     croatas      |    estonia    | contemporânea |   espiral   |   contra   |    russos   |      georg       |
-    |    chiapas    |  estonia   |  objetividade  |      haiti       |     ascher    |    galáxia    |  balanchine |    pode    |   triunfo   |       otan       |
-    |    caldera    |  poética   |  observações   |     islâmico     |     rocco     |      gaza     |    micros   |   brasil   |    araras   |     nazista      |
-    |     hamas     |  crônicas  |  maravilhoso   | fundamentalistas |    colosio    |    derruba    |  satélites  |   livro    |     ódio    |       6-11       |
-    |  israelenses  |   press    |   williamson   |       lage       |   proteínas   |   invisíveis  |  astronomia |   outros   |   comecei   |      navio       |
-    |      ruiz     | filósofos  |   incomodar    |     rejeitam     |   criticaram  |      6-10     |   desejar   |    nova    | coreografia |       mama       |
-    |   israelense  |   raros    |      copo      |       f-16       |     arena     |    belfast    |    laços    |   paulo    |  bailarinos |      martha      |
-    |      papa     |    6-16    | impressionante |      sérvia      |   britânicos  |     boris     |    célula   |    três    |    treino   |    literário     |
-    | primeira-dama |  paradoxo  |      lyon      |  sequestradores  |     1.250     |    airlines   |     6-10    |   desde    |    berlim   |   terroristas    |
-    +---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
