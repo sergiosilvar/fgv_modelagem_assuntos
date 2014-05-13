@@ -3,6 +3,7 @@ jucunda
 jucunda
 casa
 tempo
+disse
 madrinha
 maria
 carmo
@@ -50,6 +51,7 @@ jucunda
 madrinha
 casa
 jucunda
+disse
 madrinha
 irmã
 casa
@@ -64,6 +66,7 @@ jucunda
 madrinha
 tempo
 jucunda
+disse
 jucunda
 jucunda
 casa
@@ -73,7 +76,9 @@ irmã
 jucunda
 madrinha
 madrinha
+disse
 marido
+disse
 jucunda
 madrinha
 maria
@@ -98,6 +103,7 @@ tempo
 tempo
 marido
 jucunda
+disse
 marido
 marido
 jucunda
@@ -109,6 +115,8 @@ tempo
 jucunda
 jucunda
 jucunda
+disse
+disse
 jucunda
 raimunda
 irmã
@@ -134,6 +142,7 @@ tempo
 casa
 jucunda
 casa
+disse
 marido
 jucunda
 irmã
@@ -144,6 +153,7 @@ raimunda
 marido
 irmã
 jucunda
+disse
 casa
 maria
 carmo

@@ -8,22 +8,25 @@ Aluno: Sérgio da Silva Rodrigues
 
 ===
 
-#### Objetivo
-Modelagem de Assuntos utilizando o [Latent Dirichilet Algorithm.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCsQFjAA&url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLatent_Dirichlet_allocation&ei=kfNrU-OLINGxsASj0IDwCQ&usg=AFQjCNFbSU0wf-VjgZqlUY_lMnUjO9BTKA&sig2=OFtPmzdqWQEig8anEYxzKw&bvm=bv.66111022,d.cWc)
+#### Introdução
+Este trabalho apresenta uma aplicação do modelo estatístico [Latent Dirichilet Algorithm](http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation), LDA, tomando-se como [corpus](http://en.wikipedia.org/wiki/Text_corpus) as obras de  [Machado de Assis](http://pt.wikipedia.org/wiki/Machado_de_Assis). 
 
-#### Dataset 
-Obras literárias de [Machado de Assis](http://pt.wikipedia.org/wiki/Machado_de_Assis), obtidas da biblioteca NLTK.
+![LDA nas obras de Machado de Assis](/assets/lda_intro.png "LDA nas obras de Machado de Assis")
+
+A motivação para esta escolha de corpus foi o interesse em avaliar o comportamento do LDA em obras literárias, documentos com extenso vocabulário, e provavelmente um grande número de tópicos utilizados seguindo o modelo gerador do LDA. A escolha das obras de Machado de Assis deve-se pela disponibilidade de seus textos já estruturados para processamento na biblioteca [NLTK](http://nltk.org). Consequentemente utilizamos [Python](http://python.org) como linguagem de suporte à análise, e a implementação Python do LDA  selecionado é a biblioteca  [GENSIM](http://radimrehurek.com/gensim/). 
+
 
 #### Ferramentas utilizadas
 
-[Python 2.7](http://www.python.org)
+[Python 2.7](http://www.python.org) - linguagem de programação para automação o modelo.
 
-Bilbioteca [NLTK](http://nltk.org)
+Bilbioteca [NLTK](http://nltk.org) - corpus estruturado do escritor Machado de Assis. 
 
-Biblioteca [GENSIM](http://radimrehurek.com/gensim/)
+Biblioteca [GENSIM](http://radimrehurek.com/gensim/) - implementação do algoritmo LDA.
 
-#### Descrição
-O corpus das obras do escritor Machado de Assis contém uma coleção de 137 contos, 45 críticas literárias, 24 crônicas, 7 poesias, 10 peças de teatro, 10 miscelâneas, 3 traduções e 10 romances, totalizando 246 documentos. 
+#### Pré processamento do corpus
+O corpus das obras do escritor Machado de Assis estruturado na biblioteca NLTK contém uma coleção de 137 contos, 45 críticas literárias, 24 crônicas, 7 poesias, 10 peças de teatro, 10 miscelâneas, 3 traduções e 10 romances, totalizando 246 documentos.
+A primeira etapa do trabalho consiste em remover dos documentos palavras indesejadas, de pouco valor semântico ao objetivo da modelage, tais como preposições e artigos, conhecidas como [*stop words*](http://en.wikipedia.org/wiki/Stop_words). Em um primeiro momento, utilizamos os stop words disponívies na função `stopwords(language)` do NLTK.  
 Os documentos foram pré processados para remover palavras indesejadas como preposições, interjeições e outras de pouco valor semântico ao interesse da análise. Estas palavras estão registradas no arquivo stopwords_pt.txt.
 Após a removação das palavras comuns, cada documento foi tokenizado e [armazendo em arquivos](https://github.com/srodriguex/fgv_modelagem_assuntos/tree/master/machado/tokens) para otimizar futuras referências.
 
@@ -187,7 +190,8 @@ Tentemos então analisar a coleção de contos, textos mais curtos, seguindo a i
 	|  ministro  | estudante  |   eugênia   |   europa  | boticário |    votos    |    cartas   |  rochinha |   faraó    | escritório |    dona   |  valério   |     rabo    |  mariana   |   pinto   |   jantar  | pulquéria |   morto    |  henrique |   ricardo   |
 	+------------+------------+-------------+-----------+-----------+-------------+-------------+-----------+------------+------------+-----------+------------+-------------+------------+-----------+-----------+-----------+------------+-----------+-------------+
 
-
+Ainda assim, notamos que os nomes dos personagens ocorrem em mais de um tópico, e entre as 20 palavras mais relevantes não há substantivos sufucientes para um discernimento apropriado entre os tópicos.
+ 
 Sendo uma avaliação qualitativa literária fora do escopo deste trabalho, decidimos usar um corpus mais adequado a este tipo de análise, e recorremos novamente ao [NLTK](http://nltk.org), usando o dataset [Mac Morpho](http://www.nilc.icmc.usp.br/lacioweb/corpora.htm), uma coletânea de artigos dos cadernos de Esportes, Dinheiro, Ciência, Agronomia, Informática, Mundo, Brasil e Cotidiano, do jornal [Folha de São Paulo](http://www.folha.uol.com.br), restritos ao ano de 1994.
 
 Eis o resultado com 10 tópicos e 20 palavras.
@@ -218,34 +222,31 @@ Eis o resultado com 10 tópicos e 20 palavras.
     +---------------+------------+----------------+------------------+---------------+---------------+-------------+------------+-------------+------------------+
 
 
-A seguir, estendemos o número de tópicos para 20, mas exibimos somente as 10 palavras mais relevantes.
+Aqui já podemos notar que as palavras mais relevantes criam um contexto diferenciado entre os tópicos. Por exemplo, o "Topic0" relacina-se ao Oriente Médio, "Topic1" à literatura, "Topic2" política internacional, mas sensivelmente diferente de "Topic0", etc. 
 
-
-
-Filmes:
-
-    +------------+--------------+-------------+--------------+------------+------------+------------+------------+-------------+----------+
-    |   Topic0   |    Topic1    |    Topic2   |    Topic3    |   Topic4   |   Topic5   |   Topic6   |   Topic7   |    Topic8   |  Topic9  |
-    +------------+--------------+-------------+--------------+------------+------------+------------+------------+-------------+----------+
-    |   marie    |   greatest   |    glory    |   lebowski   |   murphy   |    gere    |    epic    |    film    |    lucas    |  truman  |
-    |   angela   |   portrait   |    walter   |  broderick   |  stillman  |  attorney  |    jake    |    time    |     jedi    | burbank  |
-    | australian |     lucy     |   scorsese  |   bowling    |  invasion  |   derek    | ambitious  |    well    |    anakin   |  niccol  |
-    |    mate    |    aaron     |    frank    |   buscemi    | marvelous  |   slave    |  portman   |   films    | astonishing |  shaft   |
-    |   church   |    lounge    |    karen    |     coen     | australia  |  wahlberg  |  natalie   | character  |   knights   | colored  |
-    |   exotic   |    neeson    |    miller   |    dating    |   reese    | friendship |   pacino   |   would    |   daniels   | charles  |
-    |  ireland   |  bowfinger   |    scored   |    redman    |    gory    |    lucy    |   voiced   |    life    |     matt    | motives  |
-    |   castle   |     mary     |   airplane  |    racism    |   multi    | adaptation |   naive    |   people   |   amidala   | cromwell |
-    |   emily    |    cheek     |     shaw    | sentimental  |   donny    |    phil    | suspicion  | characters |   uniforms  | creator  |
-    |    host    |    pride     |    palma    |    bunny     | carefully  |    nazi    |  sevigny   |   movies   |    cusack   | fabulous |
-    |  releases  |     liam     |   serving   |    weight    |   shine    | anastasia  | kidnappers |   really   |    naboo    |  philip  |
-    |    copy    |     lake     |     lama    |  confident   | commanding |   ramsey   | charlotte  |    best    |  perfection | gattaca  |
-    |   pupil    |   federal    |   scarface  |    creeps    |    firm    |  coppola   | idealistic |   little   |   picking   | idyllic  |
-    |   peace    |  groundhog   |   spending  | witherspoon  |   finely   |   report   |   desert   |    john    |   handsome  | mitchell |
-    |  reynolds  |    jimmy     | charismatic | accompanying | apprentice |   cards    |  patterns  |  however   |   galactic  | despair  |
-    |   nights   |   landing    |    hills    |    bound     |  cultural  |   memory   |  striking  |   world    |    libby    |   gere   |
-    | henstridge | surroundings |   reminder  |   montana    |   dramas   |   chaos    | conditions |    made    |   florida   |   ford   |
-    |   claude   |   colorful   |  strongest  |  redemption  |    loss    |  valjean   |  repeated  |   scene    |    empire   |   nail   |
-    |   breed    |    month     |  defending  |   destined   | producing  |    hong    |   purely   |   great    |    darth    | educated |
-    |   slick    |    robots    |    sixth    |    bowler    |    kiki    |    kong    |    andy    |   makes    |   freedom   |  prime   |
-    +------------+--------------+-------------+--------------+------------+------------+------------+------------+-------------+----------+
-    
+Aumentando o número de tópicos, esperamos que as palavras mais relevantes possam apresentar um contexto melhor. Vejamos o que acontece com 20 tópicos.
+	
+	+------------+--------------+-----------------+--------------+------------------+-------------+-------------+--------------+--------------+---------------+--------------+-------------+-------------+---------------+-------------------+--------------+---------------+---------------+----------------+------------+
+	|   Topic0   |    Topic1    |      Topic2     |    Topic3    |      Topic4      |    Topic5   |    Topic6   |    Topic7    |    Topic8    |     Topic9    |   Topic10    |   Topic11   |   Topic12   |    Topic13    |      Topic14      |   Topic15    |    Topic16    |    Topic17    |    Topic18     |  Topic19   |
+	+------------+--------------+-----------------+--------------+------------------+-------------+-------------+--------------+--------------+---------------+--------------+-------------+-------------+---------------+-------------------+--------------+---------------+---------------+----------------+------------+
+	|   página   |    premiê    | norte-americana |    poesia    |      mais!       |   perpétua  |     otan    |    terror    |    avião     |    ieltsin    |     ruiz     |    poeta    |  espanhóis  |     mais!     |      fujimori     |   cubanos    |     balsa     |    reynolds   |   católicos    |  tradução  |
+	|  editoria  |   sérvios    |      milão      |    poemas    |     expulsa      | protestante |  palestina  |    tropas    |     papa     |     bósnia    |   chiapas    |    berlim   |  orgulhoso  |      ódio     | primeiro-ministro |    poema     |   britânicos  |      tel.     |     duran      |   mestre   |
+	|   sobre    |     2-10     |     sombras     |   american   |      caças       |    adams    |  refugiados |    nixon     |    bomba     | primeira-dama |   zedillo    |   explodiu  |  interessar |    jandira    |        otan       |    russos    |     raoul     |     rocco     |   prometido    |  clareza   |
+	|    anos    |  muçulmanos  |     triunfo     |     6-13     |       lage       | modernidade |     fein    |  chanceler   |   ensaios    |    intenção   |   sérvios    |   irlandês  |     leon    |    buchada    |        balé       |   irlandês   |    erotismo   |    benjamin   |  sentimentos   | incomodar  |
+	|   mundo    |   caldera    |    franceses    |    street    |    atmosfera     |    ballet   |     sinn    |    golfo     |   chinesa    |   whitewater  |  ex-premiê   |    dublin   |  antologia  |    religião   |       trakl       |  escritores  |  nacionalismo |    filósofo   |    orgulho     |  músicos   |
+	|  governo   |  palestinos  |      luigi      |     6-14     |     sarajevo     |    georg    |   secreto   |   science    |   humanas    |     egito     |   colosio    |    helmut   |  montanhas  |    rejeitam   |       freud       |   benetton   |  nacionalista |     fóssil    |     susto      |  poderoso  |
+	|    país    |   hillary    |    espetáculo   |   paisagem   |      líbano      |   bolívar   |  livrarias  |   cúmplice   |  concepção   |    heroína    | documentário |   benetton  |  moralmente |   guarnieri   |     albaneses     |   chicago    |     arena     |     idioma    |    encarar     | emocional  |
+	|    dois    |   belfast    |      vidas      |    aliada    |      argel       |    lorena   |   fujimori  |    rubio     |    atores    |    racismo    |  jirinovski  |  cunningham |    diabos   |      rasi     |     cingapura     |   sensação   |    gangues    |    modesto    |  republicano   |  cansado   |
+	| presidente |  israelense  |     basquete    | especulações |      sérvia      |  dramático  | terroristas |    laços     |  culturais   |  protestantes |   estonia    |    perdi    |   protetor  | gianfrancesco |       poetas      |   nápoles    |     drama     |     ascher    |   fidelidade   |   esfera   |
+	|  segundo   | israelenses  |     negociam    |   derruba    |   terroristas    |    atacam   |  palestinos |   colorado   |     1974     |     warren    |    louis     |    raiva    | coreografia |    instante   |       judeu       |   charles    | originalidade |   filósofos   |   indicações   |   freud    |
+	|  pessoas   | protestantes |    lentamente   |  partículas  |     haroldo      | terroristas |   cruzando  |     2-10     |  incidentes  |     jericó    |   príncipe   |     lyon    |    deuses   |     babel     |      paradoxo     |    árabes    |   cavalcanti  |    mutações   |    desperta    |   músico   |
+	|   contra   |    arafat    |      luzes      |    still     |    violações     |     2-10    |  jirinovski |    press     | protestantes |   palestinos  |    arafat    |  represália |  dinamarca  |   históricas  |    coreografia    |    disco     |   universais  |    ocidente   |    decretar    |   pequim   |
+	|    pode    |   sarajevo   |      viaja      |   jornada    |      freud       |   bobbitt   |  imaginação |  histórias   |  criminosos  |  compreender  |    crânio    | protestaram |    martin   |     exato     |      salinas      |    grego     |   escritora   |    poética    |   atualidade   |   viana    |
+	|   brasil   |    cedras    |    distantes    | ilustrações  |      sérvio      |   destrói   |     2-10    |  poderosos   |    vidro     |   católicos   |     1912     |   expulsos  |    stern    |   muçulmana   |      balladur     |    george    |   espectador  | nacionalistas | sequestradores | balanchine |
+	|   livro    |    iasser    |   criatividade  |  multimídia  |     sérvios      |  bailarinos |     kohl    |   cristãos   |  obrigados   |    convida    |   gortari    |    araras   |  destruído  |    islâmico   |      galáxia      |  iugoslávia  |      1948     |  psicanalista |    estende     |   versos   |
+	|   outros   |  embaixada   |     vencidos    |   infinito   |     islâmico     |    trisha   |    premiê   | protestantes |     2-10     |     míssil    |    reabre    |     lema    |   realista  |     plínio    |       imago       |    amante    |   religiosos  |  científicas  |    ousadia     | neurônios  |
+	|    nova    |  atentados   |    extermínio   |    cd-rom    | fundamentalistas |  celebrada  |    teerã    |  ancestrais  |  violentos   |    escravos   |  palestinos  |     1971    |     1953    |    tornado    |      airlines     | sul-africano |   encenação   |    sectária   |     exibe      |  prefiro   |
+	|   paulo    |  católicos   |     fazerem     |  reabertura  |      carter      |   salinas   |    herald   |    poemas    |  assistiram  |     autora    |    perry     |    esboço   |    ombros   |     pietro    |     catástrofe    |    treino    |    leituras   |    fósseis    |   semanário    |   tribo    |
+	|    três    |    matam     |     abstrato    |  distinção   |      carlo       |  balanchine |    arafat   |    bruxas    |    louco     |     latino    |  pentágono   |   talento   |   peculiar  |     london    |     artilharia    |    menem     |     convém    |     france    |      camp      |  aprendeu  |
+	|   desde    |     kohl     |     secreta     |   formato    |      bósnio      |  dançarinos |   belfast   |  proteínas   |  enterrado   | contemporânea | narcotráfico |  disparado  |    morris   |   elegância   |      romances     |  britânicos  |   traduções   |      sons     |     farsa      |  gráfico   |
+	+------------+--------------+-----------------+--------------+------------------+-------------+-------------+--------------+--------------+---------------+--------------+-------------+-------------+---------------+-------------------+--------------+---------------+---------------+----------------+------------+

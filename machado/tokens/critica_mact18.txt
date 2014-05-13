@@ -16,6 +16,7 @@ livro
 livro
 autor
 iracema
+poti
 autor
 livro
 autor
@@ -32,6 +33,7 @@ livro
 autor
 iracema
 martim
+poti
 iracema
 selvagem
 selvagem
@@ -54,6 +56,8 @@ autor
 martim
 iracema
 martim
+poti
+poti
 martim
 iracema
 martim
@@ -75,14 +79,20 @@ iracema
 martim
 livro
 iracema
+poti
+poti
 martim
+poti
+martim
+selvagem
+poti
 martim
 selvagem
 martim
-selvagem
-martim
+poti
 iracema
 livro
+poti
 livro
 iracema
 autor

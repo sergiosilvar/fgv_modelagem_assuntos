@@ -1,24 +1,24 @@
-+-------------+--------------+----------+---------+---------+-------------+---------+----------+-------------+---------------+
-|    Topic0   |    Topic1    |  Topic2  |  Topic3 |  Topic4 |    Topic5   |  Topic6 |  Topic7  |    Topic8   |     Topic9    |
-+-------------+--------------+----------+---------+---------+-------------+---------+----------+-------------+---------------+
-|     casa    |    capitu    |  rubião  |   casa  |  olhos  |    gente    |  gosto  |  gente   |    rubião   |     paulo     |
-|    rubião   |    padre     |  tempo   |   dias  |  tempo  |    flora    |   pois  |   ouvi   |     casa    |     tempo     |
-|   assunto   |     josé     |   dois   |  coisa  |  grande |    aires    |  pessoa | grandes  |    sofia    |     flora     |
-|    volta    |   escobar    |  olhos   |   dois  |   casa  |     dois    |   digo  |  velho   |   tristão   |     aires     |
-|     dois    |     acho     |   casa   |  viúva  |  coisa  |     casa    |   três  |   boca   |    marido   |      rita     |
-|    embora   |    comigo    |  dizer   |  dizer  |   ouvi  |    tempo    |   tais  |  muitas  |   fidélia   | desembargador |
-|    marido   |  seminário   |  podia   |  alguma |  gente  |    pedro    |   nome  | saudades |   flamengo  |     pedro     |
-|    olhos    |   tristão    |  mesma   |  filho  |  outros |    olhos    | memória |  ofício  |    aguiar   |    depressa   |
-|     quis    |   fidélia    |   duas   |   duas  |  dizer  |    velha    |  terra  |   pena   |    olhos    |   natividade  |
-|   tristão   |     casa     |  santa   |   pode  |   vida  |     quis    |   cada  |   cara   |    maria    |    costume    |
-|   fidélia   |    aguiar    |  coisa   |  creio  |   dois  |   política  |  muita  |  prazer  |    carmo    |     olhos     |
-| conselheiro | naturalmente |  apesar  | tristão |  todos  |   pessoas   |  saber  |  outros  |    coisa    |     cartas    |
-|    amigo    |    missa     |  passar  | fidélia | verdade |  natividade |  quatro |  amigos  |    podia    |      dois     |
-|    poucos   |    carmo     |  viúva   |  mesma  |   dias  |     pode    |  fazia  |  praia   |    dizer    |      moça     |
-|    amigos   |    glória    |   alma   |  coisas |   pode  | conversação |  acabou |  olhos   | conversação |      dias     |
-|    capaz    |   bentinho   | costume  | verdade | pessoas | conselheiro |  homens |   cima   |    palha    |     santa     |
-|    tempo    |    falou     |  noite   |  tempo  |  melhor |    estar    |  maior  |   fica   |    banco    |    segunda    |
-|    gente    |    europa    | começou  |  grande |  mesma  |   palavras  |  papel  |  vieram  |    tempo    |     santos    |
-|     pode    |   justina    |  pediu   |  podia  |  alguma |    amigos   | própria |  contou  |     duas    |    coração    |
-|    carta    |    cosme     | depressa |  marido |   anos  |    irmão    |  comigo |  cidade  |     pode    |     filhos    |
-+-------------+--------------+----------+---------+---------+-------------+---------+----------+-------------+---------------+
++------------+------------+------------+-----------+------------+------------+-----------+----------+----------+-----------+------------+-----------+---------+---------+----------+----------+-------------+------------+----------+----------+
+|   Topic0   |   Topic1   |   Topic2   |   Topic3  |   Topic4   |   Topic5   |   Topic6  |  Topic7  |  Topic8  |   Topic9  |  Topic10   |  Topic11  | Topic12 | Topic13 | Topic14  | Topic15  |   Topic16   |  Topic17   | Topic18  | Topic19  |
++------------+------------+------------+-----------+------------+------------+-----------+----------+----------+-----------+------------+-----------+---------+---------+----------+----------+-------------+------------+----------+----------+
+|    lado    |   alves    |  carlota   |  senhora  |   livro    |   vento    |   oliver  |  cabeça  |  helena  |    nome   |  gilliatt  |  grandes  |  tempo  |  judeu  |  barão   |   casa   |    pedro    |  espécie   |  dumont  |  oliver  |
+|  preciso   |   gente    |   desde    | respondeu |   morrer   |   estela   |   paulo   | palavra  | pequeno  |   quatro  |    água    |   muitas  |  olhos  |   quer  |  clara   |  mulher  |    janela   |   emília   | mathilde |  sikes   |
+|   lugar    |   pobre    |   pessoa   |  parecia  |   força    |  gilliatt  |   félix   |  senhor  | trabalho |    josé   | lethierry  |    tais   |  homem  |  razão  |   quis   |  marido  |   gilliatt  |  possível  | alvarez  | martins  |
+|   terra    |  gilliatt  |    digo    |   fazia   | cavalcante |   rosto    |  coronel  |   flor   | estácio  | esperança |    tito    |   cinco   |  coisa  |  jorge  |  parte   |  senhor  | consciência |  momento   |  joana   |  bumble  |
+|  primeira  |   pessoa   |   senhor   |   navio   |  atenção   |   irmão    | respondeu |  oliver  | valentim |  gilliatt |   clubin   |    cada   |   dois  |  ponto  |  leonor  |   água   |     mesa    |   achou    |  larcey  | baronesa |
+|    sabe    |   rubião   |   comigo   | continuou |   oliver   |    doce    |   olhou   |   mãos   |  elisa   |   morto   | déruchette |   homens  |   duas  |   modo  |   irmã   |  causa   |  lethierry  |   passou   |  leitor  | silveira |
+|   creio    |  qualquer  |   muita    |   queria  |   falar    |   versos   |   falar   |  rindo   |  oliver  |    deus   |  durande   |    fica   |  dizer  |  devia  |  carmo   |   mãos   |    raquel   |  silêncio  | júpiter  | rosinha  |
+|   parece   |   contos   |   outras   |   velha   |  gilliatt  |   sombra   |  levantou | gilliatt | pinheiro |    água   |    deus    |    boca   |  havia  | nenhuma |  teatro  |  cartas  |    cidade   |   chegou   |  marte   |  durval  |
+|    cena    |   oliver   |   gente    |   entrou  |  leocádia  |  eugênia   | instantes |  triste  |  escada  |  ninguém  |    mess    |   muitos  |  todos  |  outras |  helena  |  amigos  |    contra   |    sair    |  cupido  | ministro |
+|   quero    |   horas    | cavalcante |   horas   |   chapéu   | lethierry  |   sikes   |  sikes   | venâncio |   dumont  | margarida  |   diabo   |  podia  |  nenhum | tristão  | dinheiro |    sentia   |    dava    |   iaiá   | guiomar  |
+|   gosto    |   cinco    |   sonho    |   quarto  |  notícia   |    chão    |   bumble  |  bumble  |   lulu   |   senhor  |   vento    |    ouvi   |  noite  |  mundo  | fidélia  | pessoas  |    clubin   |    veio    | rosinha  |  nancy   |
+|   posso    |    réis    |  leocádia  |  criança  |  adelaide  |   carmo    |   passo   | mercúrio |  úrsula  |    mãos   |   saint    |   idéias  |   pode  |  deste  | madrinha |  santa   |  déruchette |   entrar   |  apolo   | matreiro |
+|   contra   |   cidade   |   oliver   |   manhã   |   noites   |   clubin   |   força   |  flores  |  leonor  |  henrique |  máquina   |    cima   |  alguma | ocasião | sorriso  |  vamos   |   durande   |    pôde    |  durval  |  fagin   |
+|  vontade   | lethierry  |   elisa    |  minutos  |    pena    | déruchette |   sentiu  |  chapéu  |   tomé   |  mathilde |  rochedo   |   andar   |  grande | próprio | sobrinho |  resto   |   levantou  | impossível |  papai   |   cada   |
+|  simples   |   deixar   |  pessoas   |   sabia   |   rubião   |  durande   |  durante  | pessoas  | instante |  alvarez  |   pança    |   borba   |   vida  |  maior  |  aguiar  |  oliver  |    horas    |  durante   | vulcano  |  bedel   |
+|  espírito  |   sofia    |  pinheiro  |   gesto   |   alguém   |   águas    |  respeito |  andar   | melchior | lethierry |   glória   |  quincas  |  porta  |  neste  |  capitu  |  feito   |     mess    |   ouvir    |  garcia  | estevão  |
+|  cecília   |   câmara   |  venâncio  |   ouviu   | justamente | movimento  |  silêncio |  embora  | mendonça |   capitu  |  douvres   | contrário |  alguns | caminho |  rubião  | gilliatt |    excia    |   viagem   |  rubião  |  bastos  |
+|   papel    |   clubin   |    lulu    |    medo   |  escrever  |  lágrimas  |  batista  | catarina | observou |   oliver  |   seabra   |  virgília |  fazer  |  desse  |   rita   |  rubião  |    saint    |   deixou   | teófilo  | brownlow |
+|   desta    | déruchette |  adelaide  |   vinha   | lethierry  |   fundo    |  ninguém  |  comigo  | camargo  |   clubin  |  escolho   |    cama   |   dias  |   novo  | botânica |   dava   |    neves    |  daquele   | mercúrio |  homens  |
+| entretanto |  durande   |   idéias   |   estar   |   sikes    |   fronte   |    dava   |   chão   |  olhava  |   larcey  |  catarina  |   ficar   |  todas  | própria |  oliver  |  entrar  |   máquina   |   costa    | oficial  |  mateus  |
++------------+------------+------------+-----------+------------+------------+-----------+----------+----------+-----------+------------+-----------+---------+---------+----------+----------+-------------+------------+----------+----------+
